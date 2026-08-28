@@ -1,0 +1,1811 @@
+Skip to Main Content
+My Event Portal
+Contact
+Global Homepage
+VMware Explore
+LAS VEGAS | THE VENETIAN
+AUG. 31 – SEP. 3, 2026
+ 
+
+Content Catalog
+ 
+
+
+Sessions
+My Schedule
+Speakers
+Help
+Log-In / Log-Out
+Your Votes Are In
+View this year’s winning “People’s Choice Awards” sessions.
+
+Featured Sessions
+Don’t miss exciting announcements and inspiring speakers.
+
+VMware Cloud Foundation 9
+Discover these riveting sessions to unlock VCF 9’s full potential.
+
+Stay tuned for updates. More sessions will be added to the content catalog.
+Note: Favoriting a session does not schedule a session to your schedule. You must be registered with a Full Event Pass to schedule sessions.
+Filters
+Search
+
+My Favorites
+
+My Recommendations
+
+Seats Available
+Recently Added
+Product
+Track
+Session Type
+Level
+Seats Available×Breakout Session×
+All (132)
+Mon, Aug 31 (35)
+Tue, Sep 01 (52)
+Wed, Sep 02 (45)
+9:00 AM PDT - Monday, Aug 31
+Breakout Session
+
+AI at the Edge: Running Inference and Agentic Workflows with VCF Edge [CLOB1272LV]
+
+
+Industries adopting agentic workflows to automate edge operations require reliable, scalable AI infrastructure with standardized orchestration for production deployment. This session addresses three critical edge AI constraints: (1) sub-10ms...
+Monday, Aug 31
+9:00 AM - 9:45 AM PDT
+, Dir, VCF Private AI Product Management, Broadcom
+
+, VCF Product Management, Broadcom
+
+, Product Manager, Broadcom
+
+Sponsor SessionBreakout Session
+
+From On-Premises to Intelligent Cloud with Azure VMware Solution [CLOB1798LVS]
+
+
+Sponsored Session Disclaimer: This is a sponsored session. When you attend or view a sponsored session at VMware Explore, your attendee information will be shared with the presenting sponsor. By attending this session or watching on demand, you are agreeing to receive marketing and other communications directly from that sponsor and will be subject to their communications and privacy policy.
+Sponsor Company Name: Microsoft
+Unlock the full potential of your VMware workloads by extending them to Azure—no app refactoring required. In this demo-driven session, see how Azure VMware Solution lets you enhance existing applications with Azure’s powerful platform services,...
+Monday, Aug 31
+9:00 AM - 9:45 AM PDT
+, Principal Solution Engineer, Microsoft
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+How VMware vSphere Kubernetes Service Changes the Game: Running Containers and VMs on a Single Platform [CLOB1241LV]
+
+
+As enterprises modernize, managing separate infrastructure silos, teams, and security policies for traditional VMs and cloud-native containers drives up costs and slows time-to-market. The game has changed. VMware vSphere® Kubernetes Service (VKS)...
+Monday, Aug 31
+9:00 AM - 9:45 AM PDT
+, Director of Product Marketing - AI, Kubernetes & Cloud Management, Broadcom
+
+, Principal Product Marketing Manager, Broadcom
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+Lateral Security Simplified: The VMware vDefend Distributed Firewall 1-2-3-4 Security Journey [SECB1247LV]
+
+
+Stopping lateral movement within the data center is critical, yet many organizations struggle with the complexity of mapping and securing east-west traffic. The VMware vDefend Security Journey provides a prescriptive, data-driven workflow designed...
+Monday, Aug 31
+9:00 AM - 9:45 AM PDT
+, Technology Product Manager, Broadcom
+
+, Technical Product Manager, Broadcom
+
+Breakout Session
+
+Platform Engineering Opportunity: Virtual Infrastructure Admins Are Well Positioned for Career Growth [CLOB1527LV]
+
+
+Platform engineering is the fast-growing infrastructure role driven by exponential growth of container and AI apps, and virtual infrastructure (VI) admins are perfectly positioned to claim it. Your infrastructure expertise and automation...
+Monday, Aug 31
+9:00 AM - 9:45 AM PDT
+, Senior Director VCF, Broadcom
+
+, Executive Director, VMUG
+
+Breakout SessionPeople's Choice Award Winner
+
+Seeing Through the Fog: Mastering Operations in Private Clouds [CLOB1488LV]
+
+
+Private clouds promise control and security but, without visibility, they can feel like navigating through fog. Telemetry—the art of collecting and analyzing system data—is the beacon that cuts through the haze, empowering operators to monitor,...
+Monday, Aug 31
+9:00 AM - 9:45 AM PDT
+, Sr. Architect, Broadcom
+
+, IT Application Engineer, GTO, Broadcom
+
+10:00 AM PDT - Monday, Aug 31
+Breakout Session
+
+Building a Sovereign Cloud with VMware Cloud Foundation [CLOB1443LV]
+
+
+As organizations scale operations globally, they need to meet requirements for data residency, security, compliance, and business continuity. This session explores how VMware Cloud Foundation® (VCF) supports key sovereignty requirements, including...
+Monday, Aug 31
+10:15 AM - 11:00 AM PDT
+, Senior Director, Product Marketing, Broadcom
+
+, WW Technical Leader, CSP & VAO, Broadcom
+
+Breakout Session
+
+Demystifying vDefend Distributed Security within VMware Cloud Foundation [SECB1358LV]
+
+
+VMware® vDefend™ Distributed Firewall and VMware® vDefend™ Distributed Intrusion Detection and Prevention System (IDS/IPS) provide security services in the kernel through processing of rules and signatures intrinsically within the virtual...
+Monday, Aug 31
+10:15 AM - 11:00 AM PDT
+, Principal Technical Learning Engineer, Broadcom
+
+, Field CTO, Broadcom
+
+Breakout Session
+
+Deploy with Confidence: Tactical and Government Edge Architectures [CLOB1831LV]
+
+
+Government agencies operate across a vast spectrum, from connected enterprise campuses to austere tactical edges with severe power, space, and staffing constraints. Choosing the right architecture requires balancing workloads with strict...
+Monday, Aug 31
+10:15 AM - 11:00 AM PDT
+, Sr. Staff Architect, Broadcom
+
+, Architecture and Engineering Lead - Public Sector, Broadcom
+
+Sponsor SessionBreakout Session
+
+Enabling Developer Experiences on VMware Cloud Foundation 9 [APPB1810LVS]
+
+
+Sponsored Session Disclaimer: This is a sponsored session. When you attend or view a sponsored session at VMware Explore, your attendee information will be shared with the presenting sponsor. By attending this session or watching on demand, you are agreeing to receive marketing and other communications directly from that sponsor and will be subject to their communications and privacy policy.
+Sponsor Company Name: Rackspace Technology
+VMware Cloud Foundation® (VCF) 9 helps enterprises move beyond traditional VMware-based infrastructure and deliver a true cloud operating model on private cloud. The focus is on closing the gap between ticket-driven, VM-centric operations and the...
+Monday, Aug 31
+10:15 AM - 11:00 AM PDT
+, Product Architect, Rackspace Technology
+
+11:00 AM PDT - Monday, Aug 31
+Breakout Session
+
+Customer Journey: Building a Modern Private Cloud with VMware Avi Load Balancer on VMware Cloud Foundation 9 [SECB1623LV]
+
+
+VMware® Avi™ Load Balancer delivers a true plug-and-play experience for application services in VMware Cloud Foundation® (VCF) private cloud environments. Join this session to hear a real-world customer journey of adopting Avi Load Balancer with...
+Monday, Aug 31
+11:30 AM - 12:15 PM PDT
+, Product Management, Broadcom
+
+, Product Architect, Rackspace Technology
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+Four Breakthroughs Powering VMware Cloud Foundation 9 Unified AI Storage and Data Platform [INVB1090LV]
+
+
+Duncan Epping and Rakesh Radhakrishnan reveal four breakthroughs for VMware Cloud Foundation (VCF) 9 that will transform storage and data services. We dive into the disaggregated storage fabric enhancements, discuss GPU optimized storage...
+Monday, Aug 31
+11:30 AM - 12:15 PM PDT
+, Distinguished Engineering Architect, Broadcom
+
+, Senior Director, Product Management, Broadcom
+
+Breakout Session
+
+Platform Engineering 2.0: Building the AI-Native Foundation with VMware Cloud Foundation [CLOB1507LV]
+
+
+Platform Engineering has reached an inflection point. The first wave (PE 1.0) gave enterprises developer self-service portals, golden paths, and standardized toolchains. But as AI workloads, tools sprawl, regulatory pressure, and cost volatility...
+Monday, Aug 31
+11:30 AM - 12:15 PM PDT
+, Senior Director VCF, Broadcom
+
+, Sr. Director of Engineering, Broadcom
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+Provisioning Modern Workloads with VMware Cloud Foundation Automation Services Offerings [CLOB1064LV]
+
+
+Managing multi-tenant infrastructure has just gotten easier with VMware Cloud Foundation® Automation (VCF Automation). This session demonstrates how provider admins leverage VCF Automation to provision, lifecycle, and configure services for...
+Monday, Aug 31
+11:30 AM - 12:15 PM PDT
+, Product Marketing Engineer, Broadcom
+
+, Product Manager, Broadcom
+
+Sponsor SessionBreakout Session
+
+Shift to a Cloud Operating Model with VCF Operations & Fleet Control [CLOB1805LVS]
+
+
+Sponsored Session Disclaimer: This is a sponsored session. When you attend or view a sponsored session at VMware Explore, your attendee information will be shared with the presenting sponsor. By attending this session or watching on demand, you are agreeing to receive marketing and other communications directly from that sponsor and will be subject to their communications and privacy policy.
+Sponsor Company Name: CDW
+Adopting VMware Cloud Foundation requires shifting from siloed IT to a unified cloud operating model. Learn how VCF Operations and Fleet Management overcome key adoption challenges, streamline full-stack management, and accelerate your...
+Monday, Aug 31
+11:30 AM - 12:15 PM PDT
+, Partner Field CTO & Technical Director, Broadcom
+
+, Senior Field Solution Architect, CDW
+
+Breakout Session
+
+VMware Cloud Foundation + Arista: Deep Dive into the Unified EVPN-VXLAN Network Fabric [CLOB1152LV]
+
+
+Join experts from Broadcom and Arista Networks for a strategic deep dive into the Unified Network Fabric, a validated solution designed to simplify network design and accelerate private cloud deployments. This session explores best design...
+Monday, Aug 31
+11:30 AM - 12:15 PM PDT
+, Director, Product Management, Arista Networks
+
+, Technology Product Manager, Broadcom
+
+Breakout Session
+
+VMware Cloud Foundation Recovery Mastery: Three Scenarios, Three Approaches [CLOB1182LV]
+
+
+You have deployed VMware Cloud Foundation® (VCF); now learn how to protect and recover your investment when disaster strikes. Whether you’re dealing with a failed component, a complete instance loss, or a site-wide outage, this session dives into...
+Monday, Aug 31
+11:30 AM - 12:15 PM PDT
+, R&D Engineer Software 6, Broadcom
+
+, Technology Product Management, Broadcom
+
+12:00 PM PDT - Monday, Aug 31
+Sponsor SessionBreakout Session
+
+Accelerating Performance on VMware Cloud Foundation with CPU Tuning and Sizing Best Practices [CLOB1882LVS]
+
+
+Sponsored Session Disclaimer: This is a sponsored session. When you attend or view a sponsored session at VMware Explore, your attendee information will be shared with the presenting sponsor. By attending this session or watching on demand, you are agreeing to receive marketing and other communications directly from that sponsor and will be subject to their communications and privacy policy.
+Sponsor Company Name: Intel
+Modernizing on VMware Cloud Foundation® (VCF) means performance is no longer just “CPU speed”—it is the outcome of virtualization choices. In this breakout, we will share a practical performance guide for VCF on Intel® Xeon® 6. We will reference...
+Monday, Aug 31
+12:45 PM - 1:30 PM PDT
+, Distinguished Engineer, Broadcom
+
+, Principle Engineer, Intel
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+AI for Virtual Networking and Network Operations [INVB1103LV]
+
+
+Join us for an in-depth exploration of the VMware Cloud Foundation® (VCF) Networking vision and strategy. This session highlights the latest innovations designed to keep your organization ahead of the curve. Attendees will gain actionable insights...
+Monday, Aug 31
+12:45 PM - 1:30 PM PDT
+, Senior Manager Product Management, Broadcom
+
+, Technology Product Manager, Broadcom
+
+Breakout Session
+
+All-in-one Approach to Cyber Recovery: Balancing Architecture, Risk, and Cost [CLOB1726LV]
+
+
+Defending against modern ransomware requires more than just knowing how to turn on a feature; it demands a strategic alignment of technology and business risk. In this deep-dive cyber recovery session, we move beyond traditional step-by-step...
+Monday, Aug 31
+12:45 PM - 1:30 PM PDT
+, Product Marketing Engineer, Broadcom
+
+, Sr. Manager Advanced Services FAE, Broadcom
+
+Breakout Session
+
+Baked-in Protection for Your Kubernetes Applications in VMware Cloud Foundation [CLOB1727LV]
+
+
+As Kubernetes transitions to enterprise-grade production, traditional backup methods are falling short. In this app modernization session, we explore the cutting-edge of cloud-native data protection in VMware Cloud Foundation® (VCF) 9.1. We will...
+Monday, Aug 31
+12:45 PM - 1:30 PM PDT
+, Product Manager, Broadcom
+
+, Technology Product Management, Broadcom
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+From Firefighting to Foresight: Mastering VMware Cloud Foundation Health and Diagnostics [CLOB1118LV]
+
+
+Is your IT team spending more time "firefighting" infrastructure issues than building for the future? In the world of the private cloud, a reachable status is not enough. You need deep, actionable intelligence before the first ticket is even filed...
+Monday, Aug 31
+12:45 PM - 1:30 PM PDT
+, Sr. Technical Marketing Manager, Broadcom
+
+, VCF Product Management, Broadcom
+
+Breakout Session
+
+How Organizations Are Deploying and Winning with VMware vSphere Kubernetes Service in the Real World [APPB1818LV]
+
+
+As organizations modernize, real success means delivering measurable business value, faster time-to-market, and reduced operational complexity. This session steps away from product pitches to showcase the real-world triumphs of trailblazing...
+Monday, Aug 31
+12:45 PM - 1:30 PM PDT
+, Director of Product Marketing - AI, Kubernetes & Cloud Management, Broadcom
+
+, Technical Architect, PQR B.V.
+
+, Chief Information officer and VP for Information Technology, University of Texas at Dallas
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+VMware Salt: Automating Workload Configuration and Compliance [CLOB1073LV]
+
+
+This session explores how VMware® Salt automates workload configuration management and compliance enforcement across VMware Cloud Foundation® environments. Discover how VMware Salt enables continuous configuration drift detection and automated...
+Monday, Aug 31
+12:45 PM - 1:30 PM PDT
+, Product Marketing Engineer, Broadcom
+
+, Director, Product Management, Broadcom
+
+, IT Specialist, Public Sector
+
+2:00 PM PDT - Monday, Aug 31
+Breakout Session
+
+AI vs. AI: Recovering from Cyber Threats Using VMware Cloud Foundation [CLOB1725LV]
+
+
+As AI-driven ransomware and malware-free intrusions accelerate, traditional recovery workflows fall short, requiring a specialized "AI vs. AI" defense. Join Broadcom to unpack deploying a secure, on-premises isolated clean room using VMware Cloud...
+Monday, Aug 31
+2:00 PM - 2:45 PM PDT
+, Technology Product Management, Broadcom
+
+, Sr. Product Manager, Broadcom
+
+, VP, Network Operations, Catalyst Corp
+
+Breakout Session
+
+Dynamic ROI Management, FinOps, and Tokenomics in AI Era [CLOB2153LV]
+
+
+As organizations scale private cloud AI, managing costs and proving ROI requires an entirely new playbook. Join J.R. Storment, Executive Director of the FinOps and Tokenomics Foundations, alongside Broadcom experts, to explore the shift toward...
+Monday, Aug 31
+2:00 PM - 2:45 PM PDT
+, Executive Director, Tokenomics Foundation
+
+, Head of ValueOps for AI & Infrastructure, R&D Software, Broadcom
+
+Breakout Session
+
+Governance at Scale: Securing the App Estate with a Global Financial Institution [APPB1390LV]
+
+
+Visibility is the foundation of governance, yet most enterprises struggle to see the risk hidden in their app estate. Are your apps running on vulnerable Java versions? What is your Common Vulnerabilities and Exposures (CVE) exposure before code...
+Monday, Aug 31
+2:00 PM - 2:45 PM PDT
+, Director, Technology Product Management, Broadcom
+
+, Sr Manager, Cloud Engineer Lead, Charles Schwab
+
+Breakout Session
+
+Trust No One: Confidential Computing and Security Inside VMware ESX [CLOB1154LV]
+
+
+In the modern threat landscape, infrastructure is increasingly targeted and traditional security is no longer enough. For your most critical workloads and proprietary AI, you must adopt a trust-no-one approach that extends deep into the...
+Monday, Aug 31
+2:00 PM - 2:45 PM PDT
+, Technology Product Management, Broadcom
+
+, Product Management & Marketing, Broadcom
+
+Breakout Session
+
+Virtual Machine Recovery Strategies for VMware Cloud Foundation [CLOB1214LV]
+
+
+To provide better operational SLAs, organizations need a comprehensive protection and recovery plan for the virtual machines (VMs) that run their business-critical applications. Recovery scenarios should address localized operational recovery,...
+Monday, Aug 31
+2:00 PM - 2:45 PM PDT
+, Product Marketing Engineer, Broadcom
+
+, Sr Manager, Technical Marketing VCF, Broadcom
+
+Breakout Session
+
+What's New in VMware vSAN for VMware Cloud Foundation 9.1 [CLOB1193LV]
+
+
+VMware® vSAN™ for VMware Cloud Foundation® (VCF) 9.1 packs a punch with all new capabilities that make it more flexible, cost-effective, and easier to use. This session will highlight many of vSAN's latest features in VCF 9.1, including global...
+Monday, Aug 31
+2:00 PM - 2:45 PM PDT
+, Technical Marketing, Broadcom
+
+, Director, Product Management, Broadcom
+
+3:00 PM PDT - Monday, Aug 31
+Breakout Session
+
+Defending the Open Source Software Supply Chain in the Era of Frontier AI [APPB1860LV]
+
+
+With the rise of frontier AI, the security landscape has shifted under our feet. To counter the exploding volume of AI-driven threats, enterprise platform and infrastructure teams must evolve from manual security operations to a continuous...
+Monday, Aug 31
+3:15 PM - 4:00 PM PDT
+, CMO, Tanzu Division of Broadcom, Inc., Broadcom
+
+, Director, Technology Product Management, Broadcom
+
+Breakout Session
+
+Demystifying VM Service: A Modern Path to Traditional VM Excellence [CLOB1455LV]
+
+
+The VM Service is a powerful evolution in resource delivery and management. It moves beyond manual provisioning to offer a streamlined path for your infrastructure, keeping workloads firmly rooted on the industry’s most trusted hypervisor. This...
+Monday, Aug 31
+3:15 PM - 4:00 PM PDT
+, Product Manager, Broadcom
+
+, Product Manager, Broadcom
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+Introducing App Stack Formation: Capturing Live VMs as Catalog Items [CLOB1061LV]
+
+
+VMware Cloud Foundation® (VCF) 9.1 brings a ton of great new features to help our customers achieve their business goals with private cloud. In this session, we will highlight the new App Stack formation in VMware Cloud Foundation® Automation 9.1...
+Monday, Aug 31
+3:15 PM - 4:00 PM PDT
+, Sr Manager, Technical Marketing VCF, Broadcom
+
+, Product Marketing Engineer, Broadcom
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+Own Your Cloud Costs: FinOps Capabilities in VMware Cloud Foundation [CLOB1110LV]
+
+
+You can't optimize what you can't see. Discover how VMware Cloud Foundation's built-in FinOps tools — including cost assessment, rate cards, cost drivers, and showback/chargeback enhancements — give you the visibility and control to reduce waste,...
+Monday, Aug 31
+3:15 PM - 4:00 PM PDT
+, Sr. Technical Marketing Manager, Broadcom
+
+, VCF Product Management, Broadcom
+
+Breakout Session
+
+Quickly Tackle Vulnerabilities and Tech Debt with App Portfolio Assessments [APPB1465LV]
+
+
+We will walk through methodologies and demonstrate how teams assess the current state of their application portfolio, including vulnerabilities and framework versions, while providing curated guidance to either quickly patch in-place or automate...
+Monday, Aug 31
+3:15 PM - 4:00 PM PDT
+, Director Platform Solutions, Capstone IT
+
+, Global Field Principal, Broadcom
+
+9:00 AM PDT - Tuesday, Sep 1
+Breakout Session
+
+10 Minutes from Code to Cluster: Automating Application Delivery on VMware vSphere Kubernetes Service [APPB1222LV]
+
+
+Developers want to ship features fast. But traditional deployment workflows introduce friction at every step. Learn how to create a frictionless developer experience as a platform engineer. This session shows how to accelerate the timeline using...
+Tuesday, Sep 1
+9:00 AM - 9:45 AM PDT
+, Technical Marketing Manager, Broadcom
+
+, Senior Solutions Architect, Broadcom
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+Business Impact of Agentic AI: A Customer Fireside Chat [CLOP1277LV]
+
+
+Business leaders are under pressure to turn agentic AI from slides into real outcomes. In this fireside chat, customers share how they are deploying AI agents today, what impact they are seeing on cost, speed, and experience, and where they are...
+Tuesday, Sep 1
+9:00 AM - 9:45 AM PDT
+, Vice President, Product Marketing, VCF Division, Broadcom
+
+, Director, IT Operations, New Belgium Brewing
+
+, CIO, US Senate Federal Credit Union
+
+Breakout Session
+
+From Core to Edge: A Unified Approach for Sovereign Data and Agentic AI [INVB1832LV]
+
+
+Government and national security agencies face a defining moment in AI adoption. Mission outcomes depend on fusing vast repositories of unstructured data with high-performance AI engines inside secure, accredited enclaves. The Broadcom Data and AI...
+Tuesday, Sep 1
+9:00 AM - 9:45 AM PDT
+, Solutions Architect, Broadcom
+
+, Account Director, Broadcom
+
+Breakout Session
+
+Running VMware vSphere® Kubernetes Service: Enterprise Kubernetes Without Full VMware Cloud Foundation [CLOB1217LV]
+
+
+VMware Cloud Foundation® (VCF) provides a comprehensive platform for running VMware vSphere® Kubernetes Service (VMware VKS), but the full stack can feel like a large commitment for organizations just starting their Kubernetes journey. What many...
+Tuesday, Sep 1
+9:00 AM - 9:45 AM PDT
+, Product Manager, Broadcom
+
+, Principal Technologist, VMware by Broadcom
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+Self-Service Security for VMware Cloud Foundation Automation with VMware vDefend Firewall [SECB1119LV]
+
+
+The core of delivering a VMware Cloud Foundation (VCF) private cloud experience to enterprise customers and cloud service providers is empowering their project and tenant admins with delegated, self-service security controls. This session will...
+Tuesday, Sep 1
+9:00 AM - 9:45 AM PDT
+, Technology Product Management, Broadcom
+
+Sponsor SessionBreakout Session
+
+VMware Cloud Foundation Delivery Blueprint: Real-World Insights for Success [CLOB1806LVS]
+
+
+Sponsored Session Disclaimer: This is a sponsored session. When you attend or view a sponsored session at VMware Explore, your attendee information will be shared with the presenting sponsor. By attending this session or watching on demand, you are agreeing to receive marketing and other communications directly from that sponsor and will be subject to their communications and privacy policy.
+Sponsor Company Name: CDW
+A field-proven blueprint for successful VMware Cloud Foundation® (VCF) implementations, highlighting the critical considerations that drive smooth delivery. From planning and design, to education and enablement, to successful turnover—walk away...
+Tuesday, Sep 1
+9:00 AM - 9:45 AM PDT
+, Managing Consultant Engineer, Broadcom Knight - VCF Networking, CDW
+
+, Managing Consultant Engineer, Broadcom Knight - VCF Networking, CDW
+
+Breakout Session
+
+VMware vSphere Kubernetes Service at the Edge: Production Design and Architecture Best Practices [CLOB1146LV]
+
+
+Deploying Kubernetes at the edge introduces unique challenges: resource sizing; scaling to a large number of locations; limited bandwidth; high latency; and managing connectivity loss. This session explores best practices for designing and...
+Tuesday, Sep 1
+9:00 AM - 9:45 AM PDT
+, Sr. Staff Architect, Broadcom
+
+, R&D Applications Engineer, Broadcom
+
+Breakout SessionPeople's Choice Award Winner
+
+What Is MCP and Why Does It Matter to VMware Cloud Foundation Administrators? [APPB1629LV]
+
+
+As Model Context Protocol (MCP) becomes the industry standard to connect AI agents to enterprise data, VMware Cloud Foundation® (VCF) admins must host these new apps. This session explains MCP's role as the open-standard connector between AI...
+Tuesday, Sep 1
+9:00 AM - 9:45 AM PDT
+, Product Manager, Broadcom
+
+, Distinguished Engineer, Broadcom
+
+Breakout Session
+
+When LLMs Become Operators: Building the AI Management Plane for Agentic Applications [SECB1828LV]
+
+
+As LLMs transition from assisting users to acting as autonomous operators, enterprises must govern their behavior. This session examines the runtime architecture for agentic AI and addresses critical operational challenges, including policy...
+Tuesday, Sep 1
+9:00 AM - 9:45 AM PDT
+, IAM & Security CTO and Distinguished Engineer, IMS Division, Broadcom
+
+10:00 AM PDT - Tuesday, Sep 1
+Breakout Session
+
+0 Code Agents: From AGENTS.md to Running App on VMware Tanzu Platform [APPB1669LV]
+
+
+What if deploying a production AI agent on your private cloud looked exactly like deploying any other app—same push, same bindings, same guardrails, same data-locality guarantees? In VMware Tanzu® Platform 10.4, it does. The new agent buildpack...
+Tuesday, Sep 1
+10:15 AM - 11:00 AM PDT
+, Applications Marketing Engineer, Broadcom
+
+Breakout Session
+
+Adopting VMware Cloud Foundation 9 and Private AI in Higher Ed on a Budget [INVB1387LV]
+
+
+Nearly two years ago, The University of Texas System launched an AI project to deliver self-hosted AI as a shared service to its partner institutions. This talk will walk through the journey, from initial use case discovery to the first...
+Tuesday, Sep 1
+10:15 AM - 11:00 AM PDT
+, Senior System Administrator, The University of Texas System
+
+, Product Line Manager, Broadcom
+
+Breakout Session
+
+Beat the Hardware Crunch: Lowering TCO with the vSAN Platform [CLOB1197LV]
+
+
+As hardware prices spike and server inventory dries up, learn how the vSAN Platform lowers infrastructure TCO — through global deduplication and compression, lower CPU/memory footprints, QLC and Fibre Channel support, legacy server reuse, a...
+Tuesday, Sep 1
+10:15 AM - 11:00 AM PDT
+, Principal Product Manager, Broadcom
+
+, Director, Product Management, Broadcom
+
+Breakout SessionPeople's Choice Award Winner
+Recommended for you
+Rate this recommendation
+
+
+
+Enforcing Zero Trust for Apps Across Multi-Cluster VMware vSphere Kubernetes Service [SECB1079LV]
+
+
+As VMware vSphere® Kubernetes Service (VMware VKS) becomes the go-to runtime for running modern application and especially AI applications on VMware Cloud Foundation® (VCF), how do you enforce strict Zero Trust for workloads across multiple...
+Tuesday, Sep 1
+10:15 AM - 11:00 AM PDT
+, Field CTO, Broadcom
+
+, Principal Solution Architect, Broadcom
+
+Breakout Session
+
+Mastering the Hybrid Estate: Strategy for Public Clouds and VMware Cloud Foundation with ValueOps by Broadcom [INVB1596LV]
+
+
+Enterprise IT is a complex hybrid estate. Infrastructure leaders navigate this blindly, relying on fragmented Configuration Management Databases (CMDBs) and siloed billing portals. This makes it impossible to optimize workload placement, compare...
+Tuesday, Sep 1
+10:15 AM - 11:00 AM PDT
+, Head of Product, ValueOps AI, Broadcom, Broadcom
+
+, Global Product Strategist, Broadcom
+
+Sponsor SessionBreakout Session
+
+Memory Economics in the AI Era: NVMe Memory Tiering on Lenovo Platforms [CLOB1829LVS]
+
+
+Sponsored Session Disclaimer: This is a sponsored session. When you attend or view a sponsored session at VMware Explore, your attendee information will be shared with the presenting sponsor. By attending this session or watching on demand, you are agreeing to receive marketing and other communications directly from that sponsor and will be subject to their communications and privacy policy.
+Sponsor Company Name: Lenovo
+Enterprises are rethinking how to scale AI and data‑intensive workloads efficiently while managing performance and infrastructure costs as memory costs continue to rise and supply constraints impacts availability. This session explores how...
+Tuesday, Sep 1
+10:15 AM - 11:00 AM PDT
+, Sr Product Manager, Lenovo
+
+, Sr Technology Product Manager, VCF, Broadcom
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+The Path to a Quantum Secure VMware Cloud Foundation Storage Infrastructure [INVB1096LV]
+
+
+The cybersecurity landscape has transformed with the emergence of frontier AI and quantum computers on the horizon. Join us for a discussion of the path to a quantum secure VMware Cloud Foundation® (VCF) storage infrastructure.
+Tuesday, Sep 1
+10:15 AM - 11:00 AM PDT
+, Product Management, Broadcom
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+VCF State of the Union: Optimizing Costs and Closing Security Gaps in the AI Era [CLOB1276LV]
+
+
+If you attend one session after the keynote, make it this one. Get the definitive briefing on VMware Cloud Foundation: where the platform stands, the case for moving to 9.1 now, and how VCF closes security gaps across the private cloud. See how...
+Tuesday, Sep 1
+10:15 AM - 11:00 AM PDT
+, SVP & GM, VMware Cloud Foundation, Broadcom
+
+, Chief Technologist, Broadcom
+
+, Sr. Director of Engineering, Broadcom
+
+11:00 AM PDT - Tuesday, Sep 1
+Sponsor SessionBreakout Session
+
+Anywhere VMware Cloud Foundation Runs, Your Data Follows: Hybrid Mobility with Everpure [CLOB1816LVS]
+
+
+Sponsored Session Disclaimer: This is a sponsored session. When you attend or view a sponsored session at VMware Explore, your attendee information will be shared with the presenting sponsor. By attending this session or watching on demand, you are agreeing to receive marketing and other communications directly from that sponsor and will be subject to their communications and privacy policy.
+Sponsor Company Name: Everpure
+What if your move from VMware vSphere® 8 to VMware Cloud Foundation® (VCF) 9 did not lock you into one path, one platform, or one cloud? Whatever your environment looks like today, Everpure (formerly Pure Storage) gives you more options for where...
+Tuesday, Sep 1
+11:30 AM - 12:15 PM PDT
+, Fields Solutions Architect, Everpure
+
+, Senior Technical Product Specialist, Everpure
+
+Breakout Session
+
+Automating Cyber Recovery with VMware Cloud Foundation: Tales from the Trenches [CLOB1730LV]
+
+
+Theory is great, but what happens when a real ransomware attack strikes? In this hands-on Partner Success session, experts from World Wide Technology (WWT) pull back the curtain on real-world cyber recovery deployments. Moving past the marketing...
+Tuesday, Sep 1
+11:30 AM - 12:15 PM PDT
+, Technical Solutions Architect, World Wide Technology
+
+, Sr. Product Manager, Broadcom
+
+Breakout Session
+
+Build an Infrastructure—Over Lunch—That Developers Want to Use [APPB1356LV]
+
+
+Building a modern app platform is notoriously difficult, especially when balancing the needs of microservices and new AI agents with enterprise security. Virtual Infrastructure (VI) admins and platform teams often face a choice: spend months...
+Tuesday, Sep 1
+11:30 AM - 12:15 PM PDT
+, Senior Manager of Product Management, Broadcom
+
+, Product Marketing Engineer, Broadcom
+
+Breakout Session
+
+Choosing Your Deployment Path: VM, Container, and Kubernetes Services on VMware Cloud Foundation [CLOB1236LV]
+
+
+Not all applications are created equal and neither are their deployment requirements. Some teams need traditional VM workflows, others want containers without Kubernetes complexity, while some require full orchestration capabilities. How do you...
+Tuesday, Sep 1
+11:30 AM - 12:15 PM PDT
+, Principal Technologist, VMware by Broadcom
+
+, Senior Solutions Architect, Broadcom
+
+Breakout Session
+
+Deploy and govern AI models and agents with VMware Cloud Foundation Private AI Services [CLOB1229LV]
+
+
+Is your organization ready to move beyond the Shadow AI phase into a governed, production-ready state? Managing the fragmented lifecycle of large language models (LLMs), vector databases, and autonomous agents can result in operational silos. This...
+Tuesday, Sep 1
+11:30 AM - 12:15 PM PDT
+, Senior Technical Marketing Engineer, Broadcom
+
+, Product Marketing Engineer, Broadcom
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+Unlocking Performance with Next-Gen Topology-Aware CPU Scheduler in VMware Cloud Foundation [CLOB1112LV]
+
+
+With the advent of high core-count processors, chiplet-based designs, and non-uniform cache hierarchies, traditional scheduling assumptions are broken. Modern workloads—from AI/ML pipelines to large databases and latency-sensitive...
+Tuesday, Sep 1
+11:30 AM - 12:15 PM PDT
+, Distinguished Engineer, Broadcom
+
+, Distinguished Engineer, Broadcom
+
+, Sr. Manager Technology Product Management, Broadcom
+
+Breakout Session
+
+Why Is VMware Cloud Foundation the Best Private Cloud Platform for Agentic AI Workloads? [CLOB1244LV]
+
+
+This session will provide an overview of why VMware Cloud Foundation® (VCF) is the best infrastructure platform for agentic AI workloads. We will talk about how VCF delivers across the following four vectors when it comes to running agentic AI...
+Tuesday, Sep 1
+11:30 AM - 12:15 PM PDT
+, Director of Product Marketing - AI, Kubernetes & Cloud Management, Broadcom
+
+, Dir, VCF Private AI Product Management, Broadcom
+
+12:00 PM PDT - Tuesday, Sep 1
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+Building a Private Cloud: A Provider Admin Guide for Multi-Tenant Success [CLOB1062LV]
+
+
+Discover how to architect and deliver a production-ready, multi-tenant private cloud that achieves true self-service capabilities. VMware Cloud Foundation® Automation (VCF Automation) provides advanced networking strategies—distributed external...
+Tuesday, Sep 1
+12:45 PM - 1:30 PM PDT
+, Product Marketing Engineer, Broadcom
+
+, Technology Product Manager, Broadcom
+
+Breakout Session
+
+Day 2 for Kubernetes: Scaling from One-to-Many, Policy, Monitoring, and Backups [APPB1267LV]
+
+
+Most Kubernetes content focuses on Day 0 (deployment) and ignores Day 2 (operations). But production failures happen after deployment. This session provides a Day 2 operations playbook: How do you scale from one Kubernetes (K8s) cluster to many...
+Tuesday, Sep 1
+12:45 PM - 1:30 PM PDT
+, Product Manager, Broadcom
+
+, Product Manager, Broadcom
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+Design & Architect: Building Scalable Platforms in a Multi-Tenant Private Cloud [CLOB1143LV]
+
+
+Building a multi-tenant private cloud requires more than deploying infrastructure—it demands a well-architected foundation that balances isolation, scalability, and operational simplicity. In this session, we explore how to build a multi-tenant...
+Tuesday, Sep 1
+12:45 PM - 1:30 PM PDT
+, Sr. Staff Architect, Broadcom
+
+, Distinguished Engineer, Broadcom
+
+Breakout Session
+
+Easing Regulatory Compliance with Operational Guidance [CLOB1188LV]
+
+
+Discover how VMware Cloud Foundation (VCF) Operations 9.1 transforms how you manage VCF infrastructure integrity and compliance. In this session, we dive straight into VCF's new Security Posture Management (SPM) service and VCF Fleet Configuration...
+Tuesday, Sep 1
+12:45 PM - 1:30 PM PDT
+, Technical Product Manager, Broadcom
+
+, Product Marketing Engineer, Broadcom
+
+Sponsor SessionBreakout Session
+
+Unlocking Data and AI Innovation with Azure VMware Solution [CLOB1799LVS]
+
+
+Sponsored Session Disclaimer: This is a sponsored session. When you attend or view a sponsored session at VMware Explore, your attendee information will be shared with the presenting sponsor. By attending this session or watching on demand, you are agreeing to receive marketing and other communications directly from that sponsor and will be subject to their communications and privacy policy.
+Sponsor Company Name: Microsoft
+In this session you will learn about the fastest path from legacy apps to intelligent cloud, and how to accelerate cloud and AI adoption with Azure VMware Solution and Azure data services. From data center to data intelligence, Azure VMware...
+Tuesday, Sep 1
+12:45 PM - 1:30 PM PDT
+, Principal Solution Engineer, Microsoft
+
+, Sovereign Cloud Sales Lead GBB - EMEA, Microsoft
+
+Breakout Session
+
+What Is New in VMware Cloud Foundation 9.1 Security and Compliance [CLOB1187LV]
+
+
+Join us for a dive into what is new and different in VMware Cloud Foundation® 9.1 when it comes to security and regulatory compliance. We will cover features, changes, deprecations, and directions.
+Tuesday, Sep 1
+12:45 PM - 1:30 PM PDT
+, Product Management & Marketing, Broadcom
+
+2:00 PM PDT - Tuesday, Sep 1
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+A Deep Dive: What's New for VMware vSphere in VMware Cloud Foundation 9.1 [CLOB1082LV]
+
+
+Join us as we showcase the latest VMware vSphere® innovations and enhancements within VMware Cloud Foundation® (VCF) 9.1. We will walk through the top new technologies, changes, and key differences that practitioners need to know about the compute...
+Tuesday, Sep 1
+2:00 PM - 2:45 PM PDT
+, Staff Technical Marketing Architect, Broadcom
+
+, Product Management & Marketing, Broadcom
+
+Breakout Session
+
+Cloud Operating Model Realized: Architecting VPCs in VMware Cloud Foundation 9.1 [CLOB1327LV]
+
+
+Are you ready to bring true public-cloud networking to your on-premises data center? For years, private cloud environments meant juggling complex VLANs, manual IPAM entries, and fragmented firewall rules. With the release of VMware Cloud...
+Tuesday, Sep 1
+2:00 PM - 2:45 PM PDT
+, R&D Solutions Architect, Broadcom
+
+, Senior Product Manager - VCF Networking, Broadcom
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+Four Production-Ready Storage Capabilities Every VMware Cloud Foundation Admin Needs to Know [CLOB1085LV]
+
+
+Are you ready to move beyond the roadmap and start architecting for today? Join VMware® vSAN™ experts Duncan Epping and Pete Koehler for a deep dive into the high-impact storage features currently shipping in VMware Cloud Foundation® (VCF) 9.1...
+Tuesday, Sep 1
+2:00 PM - 2:45 PM PDT
+, Distinguished Engineering Architect, Broadcom
+
+, Technical Marketing, Broadcom
+
+Breakout Session
+
+Kubernetes Observability for Platform Operators: VMware vSphere Kubernetes Service and Application Services [CLOB1167LV]
+
+
+Platform teams running VMware vSphere® Kubernetes Service (VMware VKS) need observability that spans the cluster as a platform and the application services that run on it—without forcing operators to rebuild every dashboard from scratch. This...
+Tuesday, Sep 1
+2:00 PM - 2:45 PM PDT
+, VCF Operations Technical Product Manager, Broadcom
+
+Breakout Session
+
+Operationalizing Cyber Defense and App Resilience for the Agentic AI Era [SECB1789LV]
+
+
+Digital IT is adopting agentic AI to help businesses further differentiate and boost productivity. AI is also the cause of attack surface explosion, as bad actors armed with the same AI models autonomously infiltrate enterprises. Infrastructure...
+Tuesday, Sep 1
+2:00 PM - 2:45 PM PDT
+, CTO, Think On
+
+, VP & GM, Application Networking and Security, Broadcom
+
+, Head of Products, Application Networking and Security, Broadcom
+
+Breakout Session
+
+VMware vSAN over Fibre Channel: Modernizing Storage without Abandoning Your Fabric [CLOB1394LV]
+
+
+Most vSAN conversations assume Ethernet. This one doesn’t. Many enterprises already have Fibre Channel fabrics in place—and replacing them to adopt modern HCI is not always practical. VMware® vSAN™ over Fibre Channel (FC) gives those organizations...
+Tuesday, Sep 1
+2:00 PM - 2:45 PM PDT
+, Principal Product Manager, Broadcom
+
+, Distinguished Engineer, Broadcom
+
+Breakout Session
+
+VMware vSphere Upgrade and Lifecycle: What You Need to Know [CLOB1615LV]
+
+
+Join us for a deep dive into everything lifecycle for VMware vSphere®. In this session, we will walk through the core concepts, demonstrate how to leverage exciting new technologies to patch VMware vCenter® and VMware® ESX® with minimal to zero...
+Tuesday, Sep 1
+2:00 PM - 2:45 PM PDT
+, Director of Product Management, Broadcom
+
+, Sr. Manager Technology Product Management, Broadcom
+
+3:00 PM PDT - Tuesday, Sep 1
+Breakout Session
+
+Automating Desired State with vSphere Configuration Profiles [CLOB1614LV]
+
+
+Join us for an introduction to vSphere Configuration Profiles and how they simplify host configuration management. In this session, we will walk through the core concepts, demonstrate how to define and apply desired state configurations, and...
+Tuesday, Sep 1
+3:15 PM - 4:00 PM PDT
+, Product Manager Director, vCenter, Broadcom
+
+Sponsor SessionBreakout Session
+
+Build a Secure, Resilient, and Financially Sustainable VMware Cloud Foundation [CLOB1876LVS]
+
+
+Sponsored Session Disclaimer: This is a sponsored session. When you attend or view a sponsored session at VMware Explore, your attendee information will be shared with the presenting sponsor. By attending this session or watching on demand, you are agreeing to receive marketing and other communications directly from that sponsor and will be subject to their communications and privacy policy.
+Sponsor Company Name: NetApp
+Optimizing your VMware Cloud Foundation® (VCF) environment means finding the right balance between workload performance, security, and infrastructure costs. This session covers how the NetApp data platform is ideally suited for VMware. We will...
+Tuesday, Sep 1
+3:15 PM - 4:00 PM PDT
+, Principal Technical Marketing Engineer, NetApp
+
+, Sr. Solutions Architect, NetApp
+
+Breakout Session
+
+Defending Against AI-Powered Threats [CLOB1827LV]
+
+
+Attackers are using AI to find vulnerabilities faster, chain them together, and automate entire attack sequences, compressing timelines so that disclosed CVEs are weaponized in hours while enterprise change windows are still measured in weeks...
+Tuesday, Sep 1
+3:15 PM - 4:00 PM PDT
+, Director of Product Marketing, Broadcom
+
+, Product Management & Marketing, Broadcom
+
+Breakout Session
+
+Lifecycle Management in VMware Cloud Foundation 9.1 for VMware vSphere Admins [CLOB1568LV]
+
+
+Come to this session to learn how you can use the new capabilities in VMware Cloud Foundation® (VCF) 9.1 lifecycle management to efficiently upgrade and patch your VCF environments. If you have knowledge and experience with managing VMware®...
+Tuesday, Sep 1
+3:15 PM - 4:00 PM PDT
+, Director, Broadcom
+
+Breakout Session
+
+Models in Minutes: A Deep Dive into VMware Private AI Model Runtime [INVB1227LV]
+
+
+As organizations race to bring LLMs and AI agents on-premises, the key requirement is deploying models securely and efficiently. In this session, we dive into the VMware Private AI Model Runtime Service, the engine that powers inference at scale...
+Tuesday, Sep 1
+3:15 PM - 4:00 PM PDT
+, Distinguished Engineer, Broadcom
+
+, Sr. Principal Architect, AI, Broadcom
+
+Breakout Session
+
+Prescriptive Ransomware Defense for VMware Cloud Foundation Workloads with VMware vDefend Advanced Threat Prevention [SECB1466LV]
+
+
+Ransomware is pervasive; your defense must be proactive. For VMware Cloud Foundation® (VCF) users, the optional phase of security is over. Join us to discover how to leverage VMware® vDefend™ Advanced Threat Prevention, including IDS/IPS, NTA, and...
+Tuesday, Sep 1
+3:15 PM - 4:00 PM PDT
+, Senior Manager, Product Management., Broadcom
+
+, Solution Architect, Private Cloud, Westjet
+
+Breakout Session
+
+VMware Cloud Foundation Edge 9.1: A Purpose-Built Platform for the Distributed Edge [CLOB1175LV]
+
+
+The edge is the new frontier of the modern private cloud, but managing distributed sites with zero local IT staff presents massive operational challenges. This session introduces the latest innovations in VMware Cloud Foundation® (VCF) Edge 9.1, a...
+Tuesday, Sep 1
+3:15 PM - 4:00 PM PDT
+, Product Marketing Engineer, Broadcom
+
+4:00 PM PDT - Tuesday, Sep 1
+Breakout Session
+
+Accelerating AI: Mastering GPU on VMware Cloud Foundation [INVB1237LV]
+
+
+Looking to maximize your GPU investment for AI/ML workloads? This session provides essential knowledge for virtualizing and managing GPUs on VMware Cloud Foundation® (VCF). We compare passthrough and vGPU deployment options, explore GPU sharing...
+Tuesday, Sep 1
+4:30 PM - 5:15 PM PDT
+, Senior Technical Marketing Engineer, Broadcom
+
+, Sr. Principal Architect, AI, Broadcom
+
+Breakout Session
+
+A Complete Guide to Protecting and Recovering Your VMware Cloud Foundation Deployments [CLOB1763LV]
+
+
+If you are in charge of architecting or operating VMware deployments for mission-critical workloads, you will want to attend this session where we will focus on strategies and solutions for protecting the VMware private cloud platform itself. This...
+Tuesday, Sep 1
+4:30 PM - 5:15 PM PDT
+, Senior Manager, Technology Product Management, Broadcom
+
+Breakout Session
+
+Build True On-Premises Cloud and Operating Models Using VMware Cloud Foundation [CLOB1393LV]
+
+
+Join this session to learn how to build true on-premises cloud and get to an efficient cloud operating model based on successful large VMware Cloud Foundation® (VCF) deployments. Led by VMware experts and customer teams, we will cover VCF...
+Tuesday, Sep 1
+4:30 PM - 5:15 PM PDT
+, National Field Principal Architect, Broadcom
+
+, Strategic National Field Principal Architect, Broadcom
+
+Breakout Session
+
+Built-in Resilience: How vMotion, DRS, HA, and Namespaces Protect Your Apps [CLOB1275LV]
+
+
+VMware vSphere® and VMware Cloud Foundation® (VCF) are comprehensive stacks that require protection against infrastructure failures, resource contention, and security breaches to run modern applications. This session explains how the combined...
+Tuesday, Sep 1
+4:30 PM - 5:15 PM PDT
+, Sr. Manager Technology Product Management, Broadcom
+
+, Technical Product Manager, Broadcom
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+Design & Architect: VMware vSphere Kubernetes Service Consumption with VMware Cloud Foundation [APPB1107LV]
+
+
+Learn how to design a modern private cloud on VMware Cloud Foundation® (VCF) to enable VMware vSphere® Kubernetes Service (VMware VKS) consumption using models that are either VMware vCenter® based or VMware Cloud Foundation® Automation based...
+Tuesday, Sep 1
+4:30 PM - 5:15 PM PDT
+, Solutions Architect, Broadcom
+
+, R&D Solutions Architect, Broadcom
+
+Sponsor SessionBreakout Session
+
+Private AI without Reinventing the Data Center [CLOB1811LVS]
+
+
+Sponsored Session Disclaimer: This is a sponsored session. When you attend or view a sponsored session at VMware Explore, your attendee information will be shared with the presenting sponsor. By attending this session or watching on demand, you are agreeing to receive marketing and other communications directly from that sponsor and will be subject to their communications and privacy policy.
+Sponsor Company Name: Rackspace Technology
+In this session, a Rackspace Technology product leader shares lessons learned from evolving a VMware Cloud Foundation® (VCF)-based private cloud platform to support AI workloads without reinventing the data center. Drawing from firsthand...
+Tuesday, Sep 1
+4:30 PM - 5:15 PM PDT
+, Head of Product, Software and Services, Rackspace Technology
+
+Breakout Session
+
+Secure the Unknown: Automating API Protection and WAF with VMware Avi Load Balancer [SECB1572LV]
+
+
+Managing fragmented security tools is a recipe for blind spots. As modern apps shift toward API-centric architectures, the line between web security and API protection has blurred. Your defense strategy should keep up. This session explores the...
+Tuesday, Sep 1
+4:30 PM - 5:15 PM PDT
+, Technical Product Manager, Broadcom
+
+, Director, Infrastructure Engineer, CIBC
+
+Sponsor SessionBreakout Session
+
+What Makes Ubuntu Different from Other Linux Distributions [CLOB1867LVS]
+
+
+Sponsored Session Disclaimer: This is a sponsored session. When you attend or view a sponsored session at VMware Explore, your attendee information will be shared with the presenting sponsor. By attending this session or watching on demand, you are agreeing to receive marketing and other communications directly from that sponsor and will be subject to their communications and privacy policy.
+Sponsor Company Name: Canonical
+Ubuntu is more than an operating system. It provides developers, data teams, and platform engineers access to a broad ecosystem of trusted open source tools. This session shows how Ubuntu and the Canonical portfolio on VMware Cloud Foundation®...
+Tuesday, Sep 1
+4:30 PM - 5:15 PM PDT
+, VP of Products, Canonical
+
+9:00 AM PDT - Wednesday, Sep 2
+Breakout Session
+
+Extend Your Private Cloud into an AI-Ready Data Powerhouse [APPB1355LV]
+
+
+As AI agents drive a surge in demand at the data tier, relying on the public cloud makes controlling costs increasingly difficult. VMware Cloud Foundation solves this with a unified storage and data platform that pairs vSAN with comprehensive data...
+Wednesday, Sep 2
+9:00 AM - 9:45 AM PDT
+, Product Management, Tanzu Data Services, Broadcom
+
+, Director, Product Management, Broadcom
+
+Breakout Session
+
+Living on the Edge: What’s New with VCF Edge [CLOB1260LV]
+
+
+With VCF Edge, organizations can now deploy thousands of distributed connected nodes that operate as a single platform. In this session, you will learn how to deploy, manage, and update distributed infrastructure at scale with centralized...
+Wednesday, Sep 2
+9:00 AM - 9:45 AM PDT
+, Director Product Marketing, Broadcom
+
+, Founder and Principal Analyst, Linthicum Research
+
+Sponsor SessionBreakout Session
+
+Maximize Agentic AI Workflows on VMware Cloud Foundation 9.1 with AMD EPYC and Instinct [CLOB1875LVS]
+
+
+Sponsored Session Disclaimer: This is a sponsored session. When you attend or view a sponsored session at VMware Explore, your attendee information will be shared with the presenting sponsor. By attending this session or watching on demand, you are agreeing to receive marketing and other communications directly from that sponsor and will be subject to their communications and privacy policy.
+Sponsor Company Name: AMD, Inc
+Agentic AI workflows demand elastic compute, high-bandwidth GPU acceleration, intelligent memory management, and high speed storage. AMD EPYC-based servers provide core density, high bandwidth DDR5, and fast PCIe Gen5 NVMe drives. AMD Instinct...
+Wednesday, Sep 2
+9:00 AM - 9:45 AM PDT
+, Fellow, Virtualization and Software Solutions, AMD
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+The Bare Metal Tax: Why Legacy Infrastructure Is Killing Your Modern Apps [CLOB1234LV]
+
+
+In today’s era where server and memory prices are skyrocketing, running workloads on rigid, decades-old "bare metal" has become a liability. The old architectural paradigm is proving to be inadequate for the requirements of modern container and AI...
+Wednesday, Sep 2
+9:00 AM - 9:45 AM PDT
+, Product Marketing Lead, VMware Cloud Foundation, Broadcom
+
+, Sr. Manager, Broadcom
+
+Breakout Session
+
+Understanding Kubernetes Operations Friction in a VM-Based World [CLOB1501LV]
+
+
+In this session, we will explore the friction that Kubernetes introduces between teams as organizations of all sizes attempt to stand up enterprise platforms like VMware vSphere® Kubernetes Service (VMware VKS). We will examine common sources of...
+Wednesday, Sep 2
+9:00 AM - 9:45 AM PDT
+, Head of VCF Professional Services Portfolio - Americas, Broadcom
+
+, Senior Solutions Architect, Capstone IT Solutions
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+Unlocking the Value of VMware Cloud Foundation with Private Cloud Maturity and Optimization [CLOB1057LV]
+
+
+Organizations modernizing their private cloud need more than technology; they need a clear picture of the financial and operational value at stake. In this session, learn how Broadcom and its partners use the Private Cloud Maturity & Optimization...
+Wednesday, Sep 2
+9:00 AM - 9:45 AM PDT
+, PCMO GTM & Enablement Lead, Broadcom
+
+, Head of Certification and Value Tooling, Broadcom
+
+10:00 AM PDT - Wednesday, Sep 2
+Sponsor SessionBreakout Session
+
+Best Practices for Migration and Security with Azure VMware Solution [CLOB1800LVS]
+
+
+Sponsored Session Disclaimer: This is a sponsored session. When you attend or view a sponsored session at VMware Explore, your attendee information will be shared with the presenting sponsor. By attending this session or watching on demand, you are agreeing to receive marketing and other communications directly from that sponsor and will be subject to their communications and privacy policy.
+Sponsor Company Name: Microsoft
+Enterprises are under pressure to modernize infrastructure without disrupting critical operations. In this session, learn how Azure VMware Solution enables a seamless, low-risk migration path for VMware workloads—preserving existing investments...
+Wednesday, Sep 2
+10:15 AM - 11:00 AM PDT
+, GBB migrate & modernize, Microsoft
+
+Breakout Session
+
+Broadcom Runs on VMware vSphere Kubernetes Service, Containers at Scale, and How to Operate Them Internally [CLOB1286LV]
+
+
+Broadcom is running thousands of containers at scale daily. In this deep dive, we will discuss how to design, automate, and operate Kubernetes applications at scale, and what you can run out of the box to have an impact on your own organization...
+Wednesday, Sep 2
+10:15 AM - 11:00 AM PDT
+, Chief Technology Officer, VMware Strategic Services, Broadcom
+
+Breakout Session
+
+Elevating Enterprise Clouds with Telco Performance and Security Standards [CLOB1165LV]
+
+
+Today’s enterprise applications often have similar performance and security requirements as modern 5G network functions. Telcos successfully manage these resource-intensive demands by utilizing the robust capabilities of VMware Cloud Foundation®...
+Wednesday, Sep 2
+10:15 AM - 11:00 AM PDT
+, Product Marketing Leader, Broadcom
+
+, Product Marketing Engineer, Broadcom
+
+Breakout SessionPeople's Choice Award Winner
+Recommended for you
+Rate this recommendation
+
+
+
+From Dashboards to Dialogue: Agentic Observability on VMware Cloud Foundation [INVB1209LV]
+
+
+Observability data is rich, but quickly extracting insights remains a challenge. This session introduces a new approach: chatting directly with your metrics and logs using agentic infrastructure and operations. Learn how custom Model Context...
+Wednesday, Sep 2
+10:15 AM - 11:00 AM PDT
+, Lead Architect, CTO Office, TeraSky
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+Master the Air-Gap: Seamless Binary Management for Disconnected Sites [CLOB1137LV]
+
+
+Operating in a disconnected or highly secure environment should not mean being left behind. If your data center lives "off the grid," managing software binaries and updates can often feel like a manual uphill battle. This session is your...
+Wednesday, Sep 2
+10:15 AM - 11:00 AM PDT
+, Product Marketing Engineer, Broadcom
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+The Power of Choice: Enterprise App Modernization with VMware vSphere Kubernetes Service and Ecosystem ISVs [CLOP1243LV]
+
+
+Building a modern application platform for today's AI-driven workloads should not mean rewriting your entire enterprise software stack. To deliver true business velocity, your cloud-native infrastructure must seamlessly integrate with the...
+Wednesday, Sep 2
+10:15 AM - 11:00 AM PDT
+, VCF Product Marketing, Broadcom
+
+, Field CTO, Harness
+
+, Field CTO, Vectara
+
+, Senior Staff Partner Solutions Engineer, Cockroach Labs
+
+Breakout Session
+
+VMware Cloud Foundation Private AI Services: What's New and What's Next? [CLOB1661LV]
+
+
+Attend this session to learn how to deploy and operate VMware Cloud Foundation® (VCF) Private AI services, while ensuring data privacy, compliance, and control. New approaches for performance optimization, load balancing, and hybrid AI...
+Wednesday, Sep 2
+10:15 AM - 11:00 AM PDT
+, Global Head of AI & Advanced Services, Broadcom
+
+, Founder and CEO, ThinkOn
+
+11:00 AM PDT - Wednesday, Sep 2
+Breakout Session
+
+10 Tips for Reusing Existing Hardware for VMware Cloud Foundation 9 Deployments [CLOB1216LV]
+
+
+This session will walk you through extended guidance in identifying if you can use existing servers with VMware Cloud Foundation® (VCF), VMware® vSAN™, and VMware NSX® when migrating to VCF 9 to take advantage of the newest features. We will also...
+Wednesday, Sep 2
+11:30 AM - 12:15 PM PDT
+, vSAN Technical Marketing, Broadcom
+
+, Director, Product Management, Broadcom
+
+Sponsor SessionBreakout Session
+
+Accelerating Workloads and Infrastructure with Intel QuickAssist Technology [CLOB1883LVS]
+
+
+Sponsored Session Disclaimer: This is a sponsored session. When you attend or view a sponsored session at VMware Explore, your attendee information will be shared with the presenting sponsor. By attending this session or watching on demand, you are agreeing to receive marketing and other communications directly from that sponsor and will be subject to their communications and privacy policy.
+Sponsor Company Name: Intel
+As infrastructure demands continue to grow, organizations are looking for performance and efficiency improvements without increasing CPU core consumption. Intel® QuickAssist Technology (Intel® QAT) delivers hardware acceleration for cryptography...
+Wednesday, Sep 2
+11:30 AM - 12:15 PM PDT
+, Global Technologist, Intel
+
+, Technical Product Manager, Broadcom
+
+, Senior Software Engineer, Intel
+
+Breakout Session
+
+Beyond the Dashboard: Mastering vSAN Storage with AI and Agentic Ops in VMware Cloud Foundation [CLOB1196LV]
+
+
+The complexity of today's storage infrastructures have outpaced traditional monitoring and management. Administrators understand that traditional alerts and manual troubleshooting feels outdated, and does not scale well. This session explores the...
+Wednesday, Sep 2
+11:30 AM - 12:15 PM PDT
+, Product Line Manager, Broadcom
+
+, Technical Marketing, Broadcom
+
+Breakout Session
+
+Design & Architecture: Managing and Operating a Private Cloud [CLOB1145LV]
+
+
+A successful private cloud model starts with the right design decisions and initial set-up. Learn how to plan and design for VMware Cloud Foundation® Operations and its components: Log Management, VMware Cloud Foundation® Operations for networks,...
+Wednesday, Sep 2
+11:30 AM - 12:15 PM PDT
+, Staff Solution Architect, Broadcom
+
+, Solutions Architect, Broadcom
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+From Frontier Models to Private AI Agents: The Tanzu Harness on VMware Cloud Foundation [INVB1058LV]
+
+
+When your agent runs on someone else’s cloud, you are not just outsourcing compute—you are outsourcing judgment. That control lives in the harness—how an agent retrieves data, reasons, and acts. Today, that harness is increasingly delivered as a...
+Wednesday, Sep 2
+11:30 AM - 12:15 PM PDT
+, Solutions Architect, Broadcom
+
+Breakout Session
+
+Security Reference Design for VMware Cloud Foundation [SECB1630LV]
+
+
+As cyber threats bypass perimeter defenses, securing private cloud infrastructure requires scalable, hypervisor-integrated lateral security. Join this technical breakout to explore the updated VMware vDefend Reference Design for VMware Cloud...
+Wednesday, Sep 2
+11:30 AM - 12:15 PM PDT
+, Director, Broadcom
+
+Breakout Session
+
+Stop Building, Start Vending: Deep Dive into VMware Tanzu and VMware Cloud Foundation 9 [APPB1357LV]
+
+
+Automation is often a mask for complexity. When you build a DIY platform, you do not just manage the apps—you manage the "plumbing" and the automation that sustains it. But what happens when that custom code breaks? In this technical deep dive,...
+Wednesday, Sep 2
+11:30 AM - 12:15 PM PDT
+, Global Field CTO, Broadcom
+
+, Senior Manager of Product Management, Broadcom
+
+Breakout Session
+
+VMware Cloud Foundation Operations for Networks: Helping Prove VCF Network Innocence [CLOB1200LV]
+
+
+When an application is not accessible or is slow, the network is always the first suspect. In modern VMware Cloud Foundation® (VCF)-based private clouds, proving the network’s innocence requires more than just ping and trace route; it requires...
+Wednesday, Sep 2
+11:30 AM - 12:15 PM PDT
+, Product Manager, Broadcom
+
+, Senior Manager Product Management, Broadcom
+
+12:00 PM PDT - Wednesday, Sep 2
+Breakout Session
+
+Building and Running Enterprise-Ready AI Agents [INVB1683LV]
+
+
+AI agents are ready for production, if your platform is. This session reviews a VMware reference architecture for enterprise agentic AI. This is a fully integrated stack where VCF provides GPU-virtualized infrastructure, VKS hosts AI middleware,...
+Wednesday, Sep 2
+12:45 PM - 1:30 PM PDT
+, Principal Solutions Architect, Broadcom
+
+Breakout Session
+
+From Tokens to Traces: AI Observability in VMware Cloud Foundation Operations [CLOB1168LV]
+
+
+As enterprises move generative AI and traditional ML into production on VMware Cloud Foundation®, operators need a single place to see performance, quality, cost, infrastructure, compliance, and workflow behavior—not scattered vendor dashboards...
+Wednesday, Sep 2
+12:45 PM - 1:30 PM PDT
+, VCF Operations Technical Product Manager, Broadcom
+
+, VCF Operations Technical Product Manager, Broadcom
+
+Breakout Session
+
+Secure the Front Door: Hardened VMware vSphere Kubernetes Service with VMware Avi and VMware vDefend [SECB1462LV]
+
+
+Kubernetes (K8s) introduces a dramatically more agile model for modern applications. VMware® Avi™ and VMware® vDefend™ deliver critical security and load balancing for K8s workloads. VMware Avi and Avi Kubernetes Operator (AKO) redefine...
+Wednesday, Sep 2
+12:45 PM - 1:30 PM PDT
+, Technical Product Manager, Broadcom
+
+, Sr. Product Manager, Broadcom
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+Unifying Security Visibility with Cross-Stack Forensics [CLOB1089LV]
+
+
+A private cloud has a lot going on inside of it. Lots of moving parts. Lots of people touching it. And lots of changes happening every day. As a cloud admin, how do you keep track of everything? How do you ensure these activities are OK? And when...
+Wednesday, Sep 2
+12:45 PM - 1:30 PM PDT
+, Technology Product Management, Broadcom
+
+, Product Manager, Broadcom
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+VMware Cloud Foundation 9.1 SDK: Achieving Full-Stack Private Cloud and Fleet Automation [CLOB1026LV]
+
+
+Last year, we introduced the vision of a unified developer experience and delivered the first version, which included VMware Cloud Foundation® (VCF) 9.1, VMware® vSAN™, VMware Cloud Foundation® Operations fleet management (formerly VMware SDDC...
+Wednesday, Sep 2
+12:45 PM - 1:30 PM PDT
+, Technology Product Management, Broadcom
+
+, Product Marketing Engineer, Broadcom
+
+2:00 PM PDT - Wednesday, Sep 2
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+Accelerate VCF 9 Upgrade with Hyperscaler Solutions for Hybrid Deployments [CLOB1041LV]
+
+
+VMware Cloud Foundation (VCF) powers major hyperscaler solutions, including AWS (EVS), Google Cloud (GCVE), Microsoft Azure (AVS), and Oracle Cloud (OCVS). Explore how to leverage these Infrastructure-as-a-Service (IaaS) platforms to fast-track...
+Wednesday, Sep 2
+2:00 PM - 2:45 PM PDT
+, Global Head of Hyperscalers Solution & Sales, Broadcom
+
+, Sr. Director, VCF Product, Broadcom
+
+Sponsor SessionBreakout Session
+
+Back to the Future: Building Is Back in the Age of Private Cloud and AI [CLOB1885LVS]
+
+
+Sponsored Session Disclaimer: This is a sponsored session. When you attend or view a sponsored session at VMware Explore, your attendee information will be shared with the presenting sponsor. By attending this session or watching on demand, you are agreeing to receive marketing and other communications directly from that sponsor and will be subject to their communications and privacy policy.
+Sponsor Company Name: SHI International Corp
+What if the next big shift in IT is not about consuming more cloud, but knowing when to build again? For over a decade, "buy, don't build" defined enterprise strategy. Advances in AI, automation, and modern private cloud platforms are rewriting...
+Wednesday, Sep 2
+2:00 PM - 2:45 PM PDT
+, VP, Technology & Business Strategy, SHI
+
+Breakout Session
+
+Choosing the Right Path to VMware Cloud Foundation 9: Upgrade, Converge, Import, or Rebuild [CLOB1257LV]
+
+
+VMware Cloud Foundation® (VCF) 9 is more than just an update. It brings a new unified model for operations, automation, and service consumption. Choosing the right pathway is important for the business to balance speed, risk, disruption, and...
+Wednesday, Sep 2
+2:00 PM - 2:45 PM PDT
+, National Field Principal Architect, Broadcom
+
+, National Field Principal Architect, Broadcom
+
+Breakout Session
+
+From Signals to Action: AI Agents in the Kubernetes Observability Loop [CLOB1169LV]
+
+
+This session showcases agentic AI in context of the operational loop: specialized agents that watch telemetry streams decide when to escalate, synthesize root-cause narratives, and propose remediations—while keeping humans in control for high-risk...
+Wednesday, Sep 2
+2:00 PM - 2:45 PM PDT
+, Head of Products - AI, Security and Operations, Broadcom
+
+, Head of Engineering, VCF Ops and Mgmt., Broadcom
+
+Breakout Session
+
+Inside the Coding Agent-Powered SDLC: Adapting Your Infrastructure [INVB1690LV]
+
+
+What happens when coding agents outnumber developers 2:1, creating workloads three times larger with non-stop development cycles? The coding agent-powered SDLC (Software Development Life Cycle) is the future, but autonomous agents have...
+Wednesday, Sep 2
+2:00 PM - 2:45 PM PDT
+, Distinguished Engineer, Broadcom
+
+, Distinguished Engineer, Broadcom
+
+Breakout Session
+
+Secure by Design: Eliminating Ransomware Blind Spots with VMware vDefend [SECB1311LV]
+
+
+In a landscape where lateral movement defines modern attacks, infrastructure can no longer be a passive bystander. This session explores a security-first approach that embeds defense directly into the hypervisor to neutralize threats at the source...
+Wednesday, Sep 2
+2:00 PM - 2:45 PM PDT
+, Senior Manager, Technology Product Management, Broadcom
+
+Breakout Session
+
+Tips and Tricks for Running VMware Cloud Foundation 9.1 in Lab/PoC [CLOB1613LV]
+
+
+Are you eager to get hands-on experience with the cutting-edge capabilities of the latest VMware Cloud Foundation® (VCF) 9.1 release—running in a lab or Proof-of-Concept (PoC) environment—but don’t know where to start? Join William Lam, R&D...
+Wednesday, Sep 2
+2:00 PM - 2:45 PM PDT
+, Distinguished Engineer, Broadcom
+
+, Technology Product Manager, Broadcom
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+What’s New in VMware Cloud Foundation 9.1 Networking [CLOB1141LV]
+
+
+Networking in VMware Cloud Foundation® (VCF) 9.1 introduces significant architectural enhancements to the networking stack. We will dive into Ethernet VPN (EVPN) for seamless fabric-to-overlay synchronization and the evolution of the Distributed...
+Wednesday, Sep 2
+2:00 PM - 2:45 PM PDT
+, Technology Product Management, Broadcom
+
+, Product Marketing Engineer, Broadcom
+
+3:00 PM PDT - Wednesday, Sep 2
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+Application Repo to Self-Service: Automating Applications with Infrastructure as Code [CLOB1066LV]
+
+
+In this session, we walk through how to take real applications from a Git repository and transform it into a fully automated, self-service experience using Infrastructure as Code (IaC). Starting with the Bookstore App, we demonstrate how to define...
+Wednesday, Sep 2
+3:15 PM - 4:00 PM PDT
+, Product Manager, Broadcom
+
+, Product Marketing Engineer, Broadcom
+
+Breakout Session
+
+Governance of Micro-Segmentation Policies [INVB1744LV]
+
+
+This session explores the critical pillars of microsegmentation governance, moving beyond the initial visibility phase into sustainable, long-term policy management. We will dissect the lifecycle of a policy—from discovery and authoring to...
+Wednesday, Sep 2
+3:15 PM - 4:00 PM PDT
+, Senior Manager, Technical Product Management, Broadcom
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+How to Become a Logs Power User with VMware Cloud Foundation [CLOB1088LV]
+
+
+Log management is a critical part of cloud management and, fortunately, VMware Cloud Foundation® (VCF) comes with a world-class, built-in log management tool. But how much do you know about it? In this session, you will learn: how easy it is to...
+Wednesday, Sep 2
+3:15 PM - 4:00 PM PDT
+, Technical Product Marketing - VCF, Broadcom
+
+, VCF Operations Technical Product Manager, Broadcom
+
+Breakout Session
+
+The Database Modernization Ladder: VMs to Containers on VMware Cloud Foundation [CLOB1562LV]
+
+
+Databases are often the last workload trapped in legacy VMs, managed manually and scaled vertically. VMware Cloud Foundation® (VCF) and VMware Data Services Manager (DSM) break this cycle. Join us for a deep dive into the modernization journey,...
+Wednesday, Sep 2
+3:15 PM - 4:00 PM PDT
+, Field Application Engineer, Broadcom
+
+, CTO, AxelCore
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+The Patching Dilemma: Do You Need Help with the Deluge of Vulnerabilities? [SECB1279LV]
+
+
+The gap between vulnerability discovery and exploitation is shrinking at an unprecedented rate. As AI-driven tools automate the identification of zero-day flaws, traditional patch-all strategies have become mathematically impossible for modern...
+Wednesday, Sep 2
+3:15 PM - 4:00 PM PDT
+, Senior Product Manager, Broadcom
+
+, Senior Manager, Technology Product Management, Broadcom
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+VMware Cloud Foundation Automation: New Capabilities for Transforming Infrastructure Delivery [CLOB1060LV]
+
+
+In this session, you will get an overview of some of the key new features in VMware Cloud Foundation® Automation (VCF Automation). Some of the updates include: enhancements to managing services and content; applying compute and quotas to tenants;...
+Wednesday, Sep 2
+3:15 PM - 4:00 PM PDT
+, Product Marketing Engineer, Broadcom
+
+, Director, Product Management, Broadcom
+
+4:00 PM PDT - Wednesday, Sep 2
+Breakout Session
+
+Autonomous Rightsizing and Zero-Touch Delivery with VMware Cloud Foundation and Automic Automation [CLOB1703LV]
+
+
+Your infrastructure health checks may be green, but if the business waits days for manual processing of routine VM requests like rightsizing, true agility remains out of reach. Triage, complex approvals, and sequential handoffs drain valuable IT...
+Wednesday, Sep 2
+4:30 PM - 5:15 PM PDT
+, Regional Technology Officer, Broadcom
+
+Breakout Session
+
+Design & Architect: Ecosystem Integrations with VMware vSphere Kubernetes Service for Modern Applications [APPB1147LV]
+
+
+As organizations adopt VMware Cloud Foundation®, the VMware vSphere® Kubernetes Service (VKS) becomes the bridge to modern scale. But running Kubernetes is only half the battle; the real challenge is architecting a seamless ecosystem that balances...
+Wednesday, Sep 2
+4:30 PM - 5:15 PM PDT
+, Solutions Architect, Broadcom
+
+, Snr. Staff, Broadcom
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+Design & Architect: VMware Cloud Foundation Networking - Monitoring and Performance Optimization [CLOB1124LV]
+
+
+Performance-focused data path stack that comes prepackaged with VMware Cloud Foundation® (VCF) Networking is now even more performant with near-zero CPU usage. This session dives into the performance characteristics of VCF networking and...
+Wednesday, Sep 2
+4:30 PM - 5:15 PM PDT
+, Solution Architect, Broadcom
+
+, Technology Product Manager, Broadcom
+
+Breakout Session
+Recommended for you
+Rate this recommendation
+
+
+
+Evolving from VMware Cloud Director to VMware Cloud Foundation Automation 9.1 [CLOB1158LV]
+
+
+This session will help you understand the transition journey from VMware Cloud Director (VCD) to VCF Automation by exploring key strategies including greenfield deployments and in-place migration as well as mapping existing VCD constructs to the...
+Wednesday, Sep 2
+4:30 PM - 5:15 PM PDT
+, Principal Product Marketing Engineer, Broadcom
+
+, Technology Product Manager, Broadcom
+
+, CTO, Think On
+
+Breakout Session
+
+Network Observability for VMware Cloud Foundation: A Guide to Solving Cross-Cloud Performance [CLOB1533LV]
+
+
+Managing hybrid VMware Cloud Foundation® (VCF) architectures often feels like flying blind. While you might not be a network engineer, network performance dictates the success of your workloads. This technical deep dive shows how Network...
+Wednesday, Sep 2
+4:30 PM - 5:15 PM PDT
+, Product Manager, Broadcom
+
+VMware by Broadcom logo
+Contact
+VMware Explore Blog
+Code of Conduct
+VMware Explore Video Library
+Facebook IconFacebook
+Instagram IconInstagram
+LinkedIn IconLinkedIn
+X (formerly Twitter) IconX
+YouTube IconYouTube
+Copyright © 2005-2026 Broadcom. All Rights Reserved. The term “Broadcom” refers to Broadcom Inc. and/or its subsidiaries.
+Accessibility
+Privacy
+Supplier Responsibility
+Terms of Use
+

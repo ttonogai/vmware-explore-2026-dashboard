@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VMware Explore 2026 Breakout Session ダッシュボード</title>
+<style>
+:root {
+  --blue-600:#2563EB;--blue-500:#3B82F6;--blue-100:#DBEAFE;
+  --green-600:#059669;--green-100:#D1FAE5;
+  --red-600:#DC2626;--red-100:#FEE2E2;
+  --orange-500:#F59E0B;--orange-100:#FEF3C7;
+  --purple-600:#7C3AED;--purple-100:#EDE9FE;
+  --gray-900:#111827;--gray-700:#374151;--gray-500:#6B7280;
+  --gray-300:#D1D5DB;--gray-100:#F3F4F6;--gray-50:#F9FAFB;--white:#FFFFFF;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans JP',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--gray-50);color:var(--gray-900);line-height:1.6}
+.container{max-width:1320px;margin:0 auto;padding:28px 20px}
+header{margin-bottom:24px}
+header h1{font-size:1.4rem;font-weight:700;margin-bottom:4px}
+header .meta{font-size:0.76rem;color:var(--gray-500)}
+.kpi-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:24px}
+@media(max-width:900px){.kpi-grid{grid-template-columns:repeat(3,1fr)}}
+.kpi{background:var(--white);border:1px solid var(--gray-300);border-radius:8px;padding:14px 16px}
+.kpi .label{font-size:0.68rem;color:var(--gray-500);font-weight:500;text-transform:uppercase;letter-spacing:.3px;margin-bottom:2px}
+.kpi .value{font-size:1.7rem;font-weight:700}
+.kpi .sub{font-size:0.7rem;color:var(--gray-500);margin-top:2px}
+.kpi.alert{border-left:4px solid var(--red-600)}
+.chart-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:24px}
+@media(max-width:768px){.chart-grid{grid-template-columns:1fr}}
+.card{background:var(--white);border:1px solid var(--gray-300);border-radius:8px;padding:16px}
+.card h2{font-size:0.76rem;font-weight:600;color:var(--gray-500);text-transform:uppercase;letter-spacing:.3px;margin-bottom:12px}
+.h-bar{margin-bottom:8px}
+.h-bar .bar-row{display:flex;align-items:center;gap:8px}
+.h-bar .name{width:170px;font-size:0.76rem;color:var(--gray-700);flex-shrink:0}
+.h-bar .bar-bg{flex:1;height:16px;background:var(--gray-100);border-radius:3px;overflow:hidden}
+.h-bar .bar-fill{height:100%;border-radius:3px}
+.h-bar .count{width:32px;font-size:0.72rem;color:var(--gray-500);text-align:right;font-weight:600}
+.section{margin-bottom:24px}
+.section>h2{font-size:0.88rem;font-weight:700;margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid var(--gray-300)}
+.list-grid{display:grid;gap:6px}
+.list-item{background:var(--white);border:1px solid var(--gray-300);border-radius:6px;padding:10px 14px;display:grid;grid-template-columns:110px 1fr 140px;align-items:start;gap:10px;font-size:0.8rem}
+@media(max-width:768px){.list-item{grid-template-columns:1fr}}
+.list-item.waitlist{border-left:4px solid var(--red-600)}
+.list-item.pc{border-left:4px solid var(--orange-500)}
+.list-item .code{font-family:'JetBrains Mono',monospace;font-size:0.72rem;color:var(--gray-500)}
+.list-item .title-block .title{color:var(--gray-900);font-weight:500;margin-bottom:3px}
+.list-item .title-block .spk{font-size:0.7rem;color:var(--gray-500);line-height:1.4}
+.list-item .title-block .spk b{color:var(--gray-700);font-weight:600}
+.list-item .info{font-size:0.7rem;color:var(--gray-500);text-align:right}
+.table-section{background:var(--white);border:1px solid var(--gray-300);border-radius:8px;padding:16px;margin-bottom:24px;overflow-x:auto}
+.table-section h2{font-size:0.88rem;font-weight:700;margin-bottom:10px}
+.filters{display:flex;gap:6px;margin-bottom:12px;flex-wrap:wrap;align-items:center}
+.filters input{padding:6px 10px;border:1px solid var(--gray-300);border-radius:6px;font-size:0.76rem;width:180px;background:var(--gray-50)}
+.filters input:focus{outline:none;border-color:var(--blue-500)}
+.fsel{padding:5px 8px;border:1px solid var(--gray-300);border-radius:6px;font-size:0.7rem;background:var(--white);color:var(--gray-700)}
+.fbtn{padding:5px 10px;border:1px solid var(--gray-300);border-radius:6px;background:var(--white);cursor:pointer;font-size:0.7rem;color:var(--gray-700);transition:all .15s}
+.fbtn:hover{border-color:var(--blue-500);color:var(--blue-600)}
+.fbtn.active{background:var(--blue-600);border-color:var(--blue-600);color:var(--white)}
+table{width:100%;border-collapse:collapse;font-size:0.74rem}
+th{text-align:left;padding:7px 5px;background:var(--gray-100);font-weight:600;color:var(--gray-500);font-size:0.66rem;text-transform:uppercase;letter-spacing:.3px;border-bottom:1px solid var(--gray-300);white-space:nowrap;cursor:pointer;user-select:none}
+th:hover{color:var(--blue-600)}
+th .sort-arrow{margin-left:3px;font-size:0.6rem}
+td{padding:7px 5px;border-bottom:1px solid var(--gray-100);color:var(--gray-700);vertical-align:top}
+tr:hover{background:var(--gray-50)}
+.st-avail{color:var(--green-600)}
+.st-wait{color:var(--red-600);font-weight:600}
+.cross-table{width:100%;border-collapse:collapse;font-size:0.78rem;margin-top:4px}
+.cross-table th{padding:8px 6px;background:var(--gray-100);font-weight:600;color:var(--gray-500);font-size:0.68rem;text-align:center;border-bottom:1px solid var(--gray-300);cursor:default;text-transform:none;letter-spacing:0}
+.cross-table th:hover{color:var(--gray-500)}
+.cross-table td{padding:8px 6px;text-align:center;border-bottom:1px solid var(--gray-100);color:var(--gray-700);font-size:0.82rem}
+.cross-table .row-label{text-align:left;font-weight:500;color:var(--gray-700)}
+.cross-table .row-total{font-weight:700;color:var(--gray-900)}
+.cross-table .highlight-row{background:var(--blue-100)}
+.cross-table .total-row{background:var(--gray-100);font-weight:700}
+.fill-track{margin-bottom:12px}
+.fill-track .ft-head{display:flex;justify-content:space-between;font-size:0.74rem;margin-bottom:3px}
+.fill-track .ft-name{color:var(--gray-700);font-weight:500}
+.fill-track .ft-val{color:var(--gray-500)}
+.fill-track .ft-bar{height:18px;background:var(--gray-100);border-radius:3px;overflow:hidden;display:flex}
+.fill-track .ft-used{height:100%}
+/* 人気セッション Top10（1行完結で縦を詰める） */
+.top-list{display:flex;flex-direction:column}
+.top-row{display:grid;grid-template-columns:18px 1fr 54px 36px 32px;align-items:center;gap:6px;
+  font-size:0.72rem;padding:4px 0;border-bottom:1px solid var(--gray-100)}
+.top-row:last-child{border-bottom:none}
+.top-rank{text-align:right;font-weight:700;color:var(--gray-300)}
+.top-row.top3 .top-rank{color:var(--blue-600)}
+.top-title{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--gray-700)}
+.top-booked{text-align:right;font-weight:700;color:var(--gray-900);font-variant-numeric:tabular-nums}
+.top-bar{height:6px;background:var(--gray-100);border-radius:2px;overflow:hidden}
+.top-bar i{display:block;height:100%}
+.top-pct{text-align:right;color:var(--gray-500);font-size:0.66rem;font-variant-numeric:tabular-nums}
+.top-head{display:grid;grid-template-columns:18px 1fr 54px 36px 32px;gap:6px;
+  font-size:0.6rem;color:var(--gray-500);text-transform:uppercase;letter-spacing:.3px;
+  padding-bottom:4px;border-bottom:1px solid var(--gray-300);margin-bottom:2px}
+.top-head span:nth-child(3){text-align:right}
+.top-head span:nth-child(4){grid-column:4/6;text-align:right}
+/* 折りたたみセクション */
+details.fold{margin-bottom:24px}
+details.fold>summary{font-size:0.88rem;font-weight:700;padding-bottom:6px;margin-bottom:10px;border-bottom:2px solid var(--gray-300);cursor:pointer;list-style:none;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+details.fold>summary::-webkit-details-marker{display:none}
+details.fold>summary::before{content:'▶';font-size:0.66rem;color:var(--gray-500);flex-shrink:0}
+details.fold[open]>summary::before{content:'▼'}
+details.fold>summary:hover{color:var(--blue-600)}
+.fold-hint{font-size:0.7rem;font-weight:400;color:var(--gray-500)}
+/* 2カラム表示（縦の長さを半分にする） */
+.list-grid.cols2{grid-template-columns:1fr 1fr}
+@media(max-width:900px){.list-grid.cols2{grid-template-columns:1fr}}
+.list-grid.cols2 .list-item{grid-template-columns:96px 1fr;gap:4px 8px;padding:8px 12px;font-size:0.76rem}
+.list-grid.cols2 .list-item .info{grid-column:2;text-align:left;font-size:0.68rem}
+/* テーブルを内部スクロール＋ヘッダ固定にしてページ全体を短くする */
+.table-wrap{max-height:70vh;overflow:auto;border:1px solid var(--gray-300);border-radius:6px}
+.table-wrap table{border-collapse:separate;border-spacing:0}
+.table-wrap thead th{position:sticky;top:0;z-index:2;background:var(--gray-100);box-shadow:inset 0 -1px 0 var(--gray-300)}
+.badge{font-size:0.6rem;padding:2px 5px;border-radius:3px;display:inline-block;margin-top:3px}
+.badge-sp{background:var(--orange-100);color:#92400E}
+.badge-pc{background:var(--purple-100);color:var(--purple-600)}
+.spk-cell{font-size:0.68rem;line-height:1.4;max-width:230px}
+.spk-cell .spk-name{font-weight:600;color:var(--gray-700)}
+.spk-cell .spk-role{color:var(--gray-500)}
+.fill-cell{white-space:nowrap}
+.fill-mini{display:inline-block;width:34px;height:6px;background:var(--gray-100);border-radius:2px;overflow:hidden;margin-right:5px;vertical-align:middle}
+.fill-mini i{display:block;height:100%}
+footer{font-size:0.68rem;color:var(--gray-500);border-top:1px solid var(--gray-300);padding-top:12px;margin-top:8px}
+footer p{margin-bottom:3px}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+  <h1>VMware Explore 2026 Las Vegas — Breakout Session 概況ダッシュボード</h1>
+  <p class="meta" id="meta"></p>
+</header>
+
+<div class="kpi-grid" id="kpi"></div>
+
+<div class="chart-grid">
+  <div class="card"><h2>Track別</h2><div id="c-track"></div></div>
+  <div class="card"><h2>Level別</h2><div id="c-level"></div></div>
+</div>
+
+<div class="chart-grid">
+  <div class="card"><h2>Product別 — 上位10</h2><div id="c-product"></div></div>
+  <div class="card">
+    <h2>Level × Track クロス集計</h2>
+    <div id="c-cross"></div>
+    <p id="cross-note" style="font-size:0.68rem;color:var(--gray-500);margin-top:10px"></p>
+  </div>
+</div>
+
+<div class="chart-grid">
+  <div class="card">
+    <h2>Track別 座席充填率</h2>
+    <div id="c-fill"></div>
+    <p id="fill-note" style="font-size:0.68rem;color:var(--gray-500);margin-top:6px"></p>
+  </div>
+  <div class="card">
+    <h2>人気セッション Top10（申込数）</h2>
+    <div id="c-top"></div>
+    <p id="top-note" style="font-size:0.68rem;color:var(--gray-500);margin-top:8px"></p>
+  </div>
+</div>
+
+<details class="fold" id="wl-fold">
+  <summary><span id="wl-head"></span><span class="fold-hint" id="wl-sub"></span></summary>
+  <div class="list-grid cols2" id="waitlist-list"></div>
+</details>
+
+<details class="fold" id="pc-fold" open>
+  <summary><span id="pc-head"></span></summary>
+  <div class="list-grid cols2" id="pc-list"></div>
+</details>
+
+<div class="table-section">
+  <h2 id="tbl-head">全セッション一覧</h2>
+  <div class="filters">
+    <input type="text" id="q" placeholder="タイトル・コード・スピーカー・製品名で検索">
+    <select class="fsel" id="f-track"><option value="">Track: All</option></select>
+    <select class="fsel" id="f-level"><option value="">Level: All</option></select>
+    <select class="fsel" id="f-product"><option value="">Product: All</option></select>
+    <button class="fbtn" id="f-waitlist">満席のみ</button>
+  </div>
+  <div class="table-wrap">
+  <table><thead><tr>
+    <th data-key="code">Code</th>
+    <th data-key="title">タイトル</th>
+    <th data-key="track">Track</th>
+    <th data-key="level">Level</th>
+    <th data-key="product">Product</th>
+    <th data-key="additional_products">Additional Products</th>
+    <th data-key="speakers">Speakers</th>
+    <th data-key="day">日時</th>
+    <th data-key="fill_rate">充填率</th>
+    <th data-key="availability_status">Status</th>
+  </tr></thead><tbody id="tbody"></tbody></table>
+  </div>
+  <p id="rc" style="font-size:0.7rem;color:var(--gray-500);margin-top:6px"></p>
+</div>
+
+<footer>
+  <p>データソース: VMware Explore 2026 Content Catalog API（event.vmware.com/my/api/sessions）— HAR経由で取得</p>
+  <p>満席判定: API の seatsRemaining = 0 のセッション。充填率 = (capacity − seatsRemaining) / capacity</p>
+  <p>注記: 部屋キャパシティは開催直前に調整される場合があり、満席でも当日席が開放される可能性あり。</p>
+</footer>
+</div>
+
+<script>
+const S = SESSIONS_DATA_PLACEHOLDER;
+const CAPTURED = 'CAPTURE_DATE_PLACEHOLDER';
+
+const TRACK_COLOR = {
+  'Cloud Infrastructure': 'var(--blue-500)',
+  'Innovation': 'var(--purple-600)',
+  'App Modernization': 'var(--green-600)',
+  'Security': 'var(--red-600)'
+};
+const LEVEL_ORDER = ['Business', 'Technical 100', 'Technical 200', 'Technical 300'];
+const LEVEL_LABEL = {
+  'Business': 'Business',
+  'Technical 100': 'Technical 100（入門）',
+  'Technical 200': 'Technical 200（中級）',
+  'Technical 300': 'Technical 300（上級）'
+};
+
+const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const groupProduct = p => p.includes('Tanzu') ? 'VMware Tanzu (全体)' : p;
+const shortProduct = p => p
+  .replace('VMware Cloud Foundation Private AI Services', 'VCF Private AI')
+  .replace('VMware Cloud Foundation Operations', 'VCF Operations')
+  .replace('VMware Cloud Foundation Automation', 'VCF Automation')
+  .replace('VMware vSphere Kubernetes Service', 'vSphere K8s Service')
+  .replace(/^VMware /, '');
+
+function countBy(arr, fn) {
+  const m = new Map();
+  arr.forEach(x => { const k = fn(x); m.set(k, (m.get(k) || 0) + 1); });
+  return m;
+}
+
+function hbars(el, rows, colorFn) {
+  const mx = Math.max(...rows.map(r => r[1]), 1);
+  el.innerHTML = rows.map(([name, val]) =>
+    '<div class="h-bar"><div class="bar-row">' +
+    '<span class="name">' + esc(name) + '</span>' +
+    '<div class="bar-bg"><div class="bar-fill" style="width:' + (val / mx * 100).toFixed(1) + '%;background:' + (colorFn ? colorFn(name) : 'var(--blue-500)') + '"></div></div>' +
+    '<span class="count">' + val + '</span>' +
+    '</div></div>'
+  ).join('');
+}
+
+function fmtSpk(detail) {
+  if (!detail) return '';
+  return detail.split(' | ').map(sp => {
+    const m = sp.match(/^(.+?)\s*\((.+)\)$/);
+    if (m) return '<span class="spk-name">' + esc(m[1]) + '</span><br><span class="spk-role">' + esc(m[2]) + '</span>';
+    return '<span class="spk-name">' + esc(sp) + '</span>';
+  }).join('<br>');
+}
+
+function fmtSpkInline(detail) {
+  if (!detail) return '';
+  return detail.split(' | ').map(sp => {
+    const m = sp.match(/^(.+?)\s*\((.+)\)$/);
+    if (m) return '<b>' + esc(m[1]) + '</b> — ' + esc(m[2]);
+    return '<b>' + esc(sp) + '</b>';
+  }).join('<br>');
+}
+
+// ---- 集計 ----
+const total = S.length;
+const waitlist = S.filter(s => s.availability_status === 'Waitlist');
+const sponsored = S.filter(s => s.is_sponsored);
+const peoplesChoice = S.filter(s => s.is_peoples_choice);
+const productCount = new Set(S.map(s => s.product).filter(Boolean)).size;
+const totalCap = S.reduce((a, s) => a + (s.capacity || 0), 0);
+const totalRem = S.reduce((a, s) => a + (s.seats_remaining || 0), 0);
+const fillPct = totalCap ? (totalCap - totalRem) / totalCap * 100 : 0;
+
+const trackCounts = [...countBy(S, s => s.track)].sort((a, b) => b[1] - a[1]);
+const levelCounts = LEVEL_ORDER.slice().reverse()
+  .map(l => [LEVEL_LABEL[l], S.filter(s => s.level === l).length])
+  .sort((a, b) => b[1] - a[1]);
+const productCounts = new Map();
+S.forEach(s => {
+  const bump = p => productCounts.set(p, (productCounts.get(p) || 0) + 1);
+  bump(groupProduct(s.product));
+  (s.additional_products || '').split(', ').filter(Boolean).forEach(p => bump(groupProduct(p)));
+});
+const productTop = [...productCounts].sort((a, b) => b[1] - a[1]).slice(0, 10);
+
+// ---- ヘッダ / KPI ----
+const days = [...new Set(S.map(s => s.day))].filter(Boolean).sort();
+document.getElementById('meta').textContent =
+  '期間: 2026/8/31(月)–9/3(木) | The Venetian | データ取得: ' + CAPTURED +
+  ' | 全' + total + ' Breakout Session';
+
+document.getElementById('kpi').innerHTML = [
+  { label: '全セッション', value: total, sub: trackCounts.length + ' Track / ' + LEVEL_ORDER.length + ' Level' },
+  { label: '満席 (Waitlist)', value: waitlist.length, sub: (waitlist.length / total * 100).toFixed(1) + '%', color: 'var(--red-600)', alert: true },
+  { label: '全体充填率', value: fillPct.toFixed(1) + '%', sub: '残席 ' + totalRem.toLocaleString() + ' / ' + totalCap.toLocaleString(), color: 'var(--blue-600)' },
+  { label: 'スポンサー', value: sponsored.length, sub: (sponsored.length / total * 100).toFixed(1) + '%', color: 'var(--orange-500)' },
+  { label: '製品数', value: productCount, sub: 'Primary Product' }
+].map(k =>
+  '<div class="kpi' + (k.alert ? ' alert' : '') + '">' +
+  '<div class="label">' + k.label + '</div>' +
+  '<div class="value"' + (k.color ? ' style="color:' + k.color + '"' : '') + '>' + k.value + '</div>' +
+  '<div class="sub">' + k.sub + '</div></div>'
+).join('');
+
+// ---- チャート ----
+hbars(document.getElementById('c-track'), trackCounts, n => TRACK_COLOR[n] || 'var(--blue-500)');
+hbars(document.getElementById('c-level'), levelCounts, n => n.startsWith('Business') ? 'var(--gray-500)' : 'var(--blue-500)');
+hbars(document.getElementById('c-product'), productTop.map(([p, c]) => [shortProduct(p), c]),
+  n => /Tanzu|K8s|Kubernetes/.test(n) ? 'var(--green-600)' : /Private AI/.test(n) ? 'var(--purple-600)' : /vDefend|NSX/.test(n) ? 'var(--red-600)' : 'var(--blue-500)');
+
+// ---- Level × Track クロス集計 ----
+const trackOrder = trackCounts.map(t => t[0]);
+const shortTrack = { 'Cloud Infrastructure': 'Cloud Infra', 'App Modernization': 'App Mod', 'Innovation': 'Innovation', 'Security': 'Security' };
+const maxCell = Math.max(...LEVEL_ORDER.flatMap(l => trackOrder.map(t => S.filter(s => s.track === t && s.level === l).length)));
+document.getElementById('c-cross').innerHTML =
+  '<table class="cross-table"><thead><tr><th></th>' +
+  trackOrder.map(t => '<th>' + esc(shortTrack[t] || t) + '</th>').join('') +
+  '<th>計</th></tr></thead><tbody>' +
+  LEVEL_ORDER.map(l => {
+    const cells = trackOrder.map(t => S.filter(s => s.track === t && s.level === l).length);
+    const rowTotal = cells.reduce((a, b) => a + b, 0);
+    const isMax = cells.includes(maxCell);
+    return '<tr' + (isMax ? ' class="highlight-row"' : '') + '>' +
+      '<td class="row-label">' + esc(l) + '</td>' +
+      cells.map(c => '<td>' + c + '</td>').join('') +
+      '<td class="row-total">' + rowTotal + '</td></tr>';
+  }).join('') +
+  '<tr class="total-row"><td class="row-label">計</td>' +
+  trackOrder.map(t => '<td>' + S.filter(s => s.track === t).length + '</td>').join('') +
+  '<td class="row-total">' + total + '</td></tr></tbody></table>';
+
+const topLevel = LEVEL_ORDER.map(l => [l, S.filter(s => s.level === l).length]).sort((a, b) => b[1] - a[1])[0];
+let maxPair = { t: '', l: '', n: -1 };
+trackOrder.forEach(t => LEVEL_ORDER.forEach(l => {
+  const n = S.filter(s => s.track === t && s.level === l).length;
+  if (n > maxPair.n) maxPair = { t, l, n };
+}));
+document.getElementById('cross-note').textContent =
+  topLevel[0] + '（' + (topLevel[1] / total * 100).toFixed(0) + '%）が最多。' +
+  maxPair.t + ' × ' + maxPair.l + ' が最大ボリュームゾーン（' + maxPair.n + '件）。';
+
+// ---- Track別 充填率 ----
+const fillRows = trackOrder.map(t => {
+  const ss = S.filter(s => s.track === t);
+  const cap = ss.reduce((a, s) => a + (s.capacity || 0), 0);
+  const rem = ss.reduce((a, s) => a + (s.seats_remaining || 0), 0);
+  return {
+    track: t,
+    pct: cap ? (cap - rem) / cap * 100 : 0,
+    wl: ss.filter(s => s.availability_status === 'Waitlist').length,
+    n: ss.length
+  };
+}).sort((a, b) => b.pct - a.pct);
+
+document.getElementById('c-fill').innerHTML = fillRows.map(r =>
+  '<div class="fill-track">' +
+  '<div class="ft-head"><span class="ft-name">' + esc(r.track) + '</span>' +
+  '<span class="ft-val">' + r.pct.toFixed(1) + '% ／ 満席 ' + r.wl + '/' + r.n + '件</span></div>' +
+  '<div class="ft-bar"><div class="ft-used" style="width:' + r.pct.toFixed(1) + '%;background:' + (TRACK_COLOR[r.track] || 'var(--blue-500)') + '"></div></div>' +
+  '</div>'
+).join('');
+document.getElementById('fill-note').textContent =
+  '全体充填率 ' + fillPct.toFixed(1) + '%（' + (totalCap - totalRem).toLocaleString() + ' / ' + totalCap.toLocaleString() + '席）。' +
+  fillRows[0].track + ' が最も埋まっている。';
+
+// ---- 人気セッション Top10（申込数 = capacity - seatsRemaining）----
+const shortTitle = t => t
+  .replace(/VMware Cloud Foundation/g, 'VCF')
+  .replace(/VMware vSphere Kubernetes Service/g, 'VKS')
+  .replace(/^VMware /, '');
+
+const booked = s => (s.capacity || 0) - (s.seats_remaining || 0);
+const topSessions = S
+  .filter(s => s.capacity && s.seats_remaining != null)
+  .sort((a, b) => booked(b) - booked(a) || (b.fill_rate || 0) - (a.fill_rate || 0))
+  .slice(0, 10);
+
+document.getElementById('c-top').innerHTML =
+  '<div class="top-head"><span></span><span>セッション</span><span>申込</span><span>充填率</span></div>' +
+  '<div class="top-list">' +
+  topSessions.map((s, i) => {
+    const b = booked(s);
+    const pct = s.fill_rate || 0;
+    const color = pct >= 100 ? 'var(--red-600)' : pct >= 80 ? 'var(--orange-500)' : 'var(--green-600)';
+    const tip = s.code + '　' + s.title + '\n' + b + '名 / 定員' + s.capacity + '席（' + pct.toFixed(1) + '%）\n' +
+      s.day + ' ' + s.time_start + '　' + s.room;
+    return '<div class="top-row' + (i < 3 ? ' top3' : '') + '" title="' + esc(tip) + '">' +
+      '<span class="top-rank">' + (i + 1) + '</span>' +
+      '<span class="top-title">' + esc(shortTitle(s.title)) + '</span>' +
+      '<span class="top-booked">' + b.toLocaleString() + '名</span>' +
+      '<span class="top-bar"><i style="width:' + Math.min(100, pct) + '%;background:' + color + '"></i></span>' +
+      '<span class="top-pct">' + pct.toFixed(0) + '%</span>' +
+      '</div>';
+  }).join('') + '</div>';
+
+const topFullCount = topSessions.filter(s => s.availability_status === 'Waitlist').length;
+const bigRoom = Math.max(...topSessions.map(s => s.capacity));
+const bigRoomCount = topSessions.filter(s => s.capacity === bigRoom).length;
+document.getElementById('top-note').textContent =
+  '1位は ' + booked(topSessions[0]).toLocaleString() + '名（定員' + topSessions[0].capacity + '席）。' +
+  '上位10のうち ' + bigRoomCount + '件が最大の' + bigRoom + '席会場、' + topFullCount + '件が満席。' +
+  '申込数は会場規模に左右されるため、充填率と併せて参照。';
+
+// ---- 満席リスト ----
+document.getElementById('wl-head').textContent = '🔴 満席セッション（JOIN WAITLIST）— ' + waitlist.length + '件';
+document.getElementById('wl-sub').textContent =
+  trackCounts.map(([t]) => [t, waitlist.filter(s => s.track === t).length])
+    .filter(([, n]) => n > 0)
+    .map(([t, n]) => (shortTrack[t] || t) + ' ' + n)
+    .join(' / ');
+document.getElementById('waitlist-list').innerHTML = waitlist
+  .slice().sort((a, b) => (b.capacity || 0) - (a.capacity || 0))
+  .map(s =>
+    '<div class="list-item waitlist"><span class="code">' + esc(s.code) + '</span>' +
+    '<div class="title-block"><div class="title">' + esc(s.title) + '</div>' +
+    '<div class="spk">' + fmtSpkInline(s.speakers_detail) + '</div></div>' +
+    '<span class="info">' + esc(s.day) + ' ' + esc(s.time_start) + '<br>' + esc(s.level) +
+    '<br>定員 ' + (s.capacity || 0) + '席</span></div>'
+  ).join('');
+
+// ---- People's Choice ----
+document.getElementById('pc-head').textContent = "🏆 People's Choice Award Winners — " + peoplesChoice.length + '件';
+document.getElementById('pc-list').innerHTML = peoplesChoice.map(s =>
+  '<div class="list-item pc"><span class="code">' + esc(s.code) + '</span>' +
+  '<div class="title-block"><div class="title">' + esc(s.title) + '</div>' +
+  '<div class="spk">' + fmtSpkInline(s.speakers_detail) + '</div></div>' +
+  '<span class="info">' + esc(s.track) + '<br>' + esc(s.level) +
+  (s.availability_status === 'Waitlist' ? '<br><span class="st-wait">満席</span>' : '') + '</span></div>'
+).join('');
+
+// ---- フィルタ選択肢 ----
+[...new Set(S.map(s => s.track))].sort().forEach(t =>
+  document.getElementById('f-track').innerHTML += '<option value="' + esc(t) + '">' + esc(t) + '</option>');
+LEVEL_ORDER.forEach(l =>
+  document.getElementById('f-level').innerHTML += '<option value="' + esc(l) + '">' + esc(l) + '</option>');
+[...new Set(S.flatMap(s => [s.product, ...(s.additional_products || '').split(', ').filter(Boolean)]))].sort()
+  .forEach(p => document.getElementById('f-product').innerHTML += '<option value="' + esc(p) + '">' + esc(p) + '</option>');
+
+// ---- テーブル ----
+function fillCell(s) {
+  if (s.fill_rate == null) return '<span style="color:var(--gray-500)">—</span>';
+  const color = s.fill_rate >= 100 ? 'var(--red-600)' : s.fill_rate >= 80 ? 'var(--orange-500)' : 'var(--green-600)';
+  return '<span class="fill-cell"><span class="fill-mini"><i style="width:' + Math.min(100, s.fill_rate) + '%;background:' + color + '"></i></span>' +
+    s.fill_rate.toFixed(0) + '%</span>';
+}
+
+function render(data) {
+  document.getElementById('tbody').innerHTML = data.map(s => {
+    const st = s.availability_status === 'Waitlist'
+      ? '<span class="st-wait">Waitlist</span>'
+      : '<span class="st-avail">残 ' + (s.seats_remaining == null ? '—' : s.seats_remaining) + '</span>';
+    const badges =
+      (s.is_sponsored ? '<br><span class="badge badge-sp">Sponsor</span>' : '') +
+      (s.is_peoples_choice ? '<br><span class="badge badge-pc">People\'s Choice</span>' : '');
+    return '<tr>' +
+      '<td><code>' + esc(s.code) + '</code>' + badges + '</td>' +
+      '<td>' + esc(s.title) + '</td>' +
+      '<td>' + esc(s.track) + '</td>' +
+      '<td>' + esc(s.level) + '</td>' +
+      '<td>' + esc(s.product) + '</td>' +
+      '<td style="font-size:0.68rem;color:var(--gray-500);max-width:190px">' + esc(s.additional_products || '—') + '</td>' +
+      '<td class="spk-cell">' + fmtSpk(s.speakers_detail) + '</td>' +
+      '<td>' + esc(s.day) + '<br>' + esc(s.time_start) + '</td>' +
+      '<td>' + fillCell(s) + '</td>' +
+      '<td>' + st + '</td></tr>';
+  }).join('');
+  document.getElementById('rc').textContent = data.length + ' 件表示（全 ' + total + ' 件）';
+}
+
+document.getElementById('tbl-head').textContent = '全セッション一覧（' + total + '件）';
+
+let wlOnly = false, sortKey = '', sortAsc = true;
+
+function getFiltered() {
+  let d = S;
+  const q = document.getElementById('q').value.toLowerCase();
+  const t = document.getElementById('f-track').value;
+  const l = document.getElementById('f-level').value;
+  const p = document.getElementById('f-product').value;
+  if (q) d = d.filter(s => (s.title + ' ' + s.code + ' ' + s.speakers + ' ' + s.speakers_detail + ' ' +
+    s.product + ' ' + s.additional_products + ' ' + s.room).toLowerCase().includes(q));
+  if (t) d = d.filter(s => s.track === t);
+  if (l) d = d.filter(s => s.level === l);
+  if (p) d = d.filter(s => s.product === p || (s.additional_products || '').includes(p));
+  if (wlOnly) d = d.filter(s => s.availability_status === 'Waitlist');
+  return d;
+}
+
+function applySort(data) {
+  if (!sortKey) return data;
+  return [...data].sort((a, b) => {
+    let va, vb;
+    if (sortKey === 'day') { va = a.day + ' ' + a.time_start; vb = b.day + ' ' + b.time_start; }
+    else if (sortKey === 'fill_rate') { va = a.fill_rate == null ? -1 : a.fill_rate; vb = b.fill_rate == null ? -1 : b.fill_rate; }
+    else { va = String(a[sortKey] || '').toLowerCase(); vb = String(b[sortKey] || '').toLowerCase(); }
+    if (va < vb) return sortAsc ? -1 : 1;
+    if (va > vb) return sortAsc ? 1 : -1;
+    return 0;
+  });
+}
+
+function refresh() {
+  render(applySort(getFiltered()));
+  document.querySelectorAll('th[data-key]').forEach(th => {
+    const arrow = th.querySelector('.sort-arrow');
+    if (arrow) arrow.remove();
+    if (th.dataset.key === sortKey) {
+      const span = document.createElement('span');
+      span.className = 'sort-arrow';
+      span.textContent = sortAsc ? '▲' : '▼';
+      th.appendChild(span);
+    }
+  });
+}
+
+document.querySelectorAll('th[data-key]').forEach(th => {
+  th.addEventListener('click', () => {
+    const key = th.dataset.key;
+    if (sortKey === key) sortAsc = !sortAsc;
+    else { sortKey = key; sortAsc = key === 'fill_rate' ? false : true; }
+    refresh();
+  });
+});
+['q'].forEach(id => document.getElementById(id).addEventListener('input', refresh));
+['f-track', 'f-level', 'f-product'].forEach(id => document.getElementById(id).addEventListener('change', refresh));
+document.getElementById('f-waitlist').addEventListener('click', function () {
+  wlOnly = !wlOnly; this.classList.toggle('active', wlOnly); refresh();
+});
+
+refresh();
+</script>
+</body>
+</html>
