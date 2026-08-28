@@ -11,7 +11,7 @@ from pathlib import Path
 
 BASE = Path('/home/tono/work/kiro/202608_Explore_LasVegas')
 TEMPLATE_PATH = BASE / 'dashboard_template.html'
-OUTPUT_PATH = BASE / 'dashboard.html'
+OUTPUT_PATH = BASE / 'index.html'
 DATA_PATH = BASE / 'sessions_full.json'
 HAR_PATH = BASE / 'event.vmware.com_20260828.har'
 
