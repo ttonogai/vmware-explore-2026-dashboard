@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""dashboard.html が GitHub Pages 等の静的ホスティングで自己完結して動くか検証する。"""
+"""index.html が GitHub Pages 等の静的ホスティングで自己完結して動くか検証する。"""
 import re
 import sys
 from pathlib import Path
 
 BASE = Path('/home/tono/work/kiro/202608_Explore_LasVegas')
-path = BASE / 'dashboard.html'
+path = BASE / 'index.html'
 html = path.read_text(encoding='utf-8')
 
 ok = True

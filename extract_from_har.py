@@ -11,7 +11,7 @@ import json
 import sqlite3
 from collections import Counter
 
-HAR_PATH = '/home/tono/work/kiro/202608_Explore_LasVegas/event.vmware.com_20260828.har'
+HAR_PATH = '/home/tono/work/kiro/202608_Explore_LasVegas/event.vmware.com_20260830.har'
 DB_PATH = '/home/tono/work/kiro/202608_Explore_LasVegas/explore2026.db'
 JSON_PATH = '/home/tono/work/kiro/202608_Explore_LasVegas/sessions_full.json'
 

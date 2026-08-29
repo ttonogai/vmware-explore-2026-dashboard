@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""生成された dashboard.html の健全性を検証する。"""
+"""生成された index.html の健全性を検証する。"""
 import json
 import re
 import sys
 from pathlib import Path
 
 BASE = Path('/home/tono/work/kiro/202608_Explore_LasVegas')
-html = (BASE / 'dashboard.html').read_text(encoding='utf-8')
+html = (BASE / 'index.html').read_text(encoding='utf-8')
 sessions = json.loads((BASE / 'sessions_full.json').read_text(encoding='utf-8'))
 
 ok = True
@@ -63,14 +63,18 @@ for label, needle in [
     ('Product別カード', 'id="c-product"'),
     ('クロス集計カード', 'id="c-cross"'),
     ('Track別充填率カード', 'id="c-fill"'),
-    ('Day別カード', 'id="c-day"'),
+    ('人気Top10カード', 'id="c-top"'),
     ('満席リスト', 'id="waitlist-list"'),
     ("People's Choiceリスト", 'id="pc-list"'),
     ('一覧テーブル', 'id="tbody"'),
     ('充填率列ヘッダ', 'data-key="fill_rate"'),
-    ('新規追加フィルタ', 'id="f-new"'),
 ]:
     check(label, needle in html)
+
+print("\n== 削除済み要素が残っていないか ==")
+check('Day別カードが削除済み', 'id="c-day"' not in html)
+check('新規追加フィルタが削除済み', 'id="f-new"' not in html)
+check('フッター注記が削除済み', 'データソース' not in html)
 
 print("\n== 取得日 ==")
 m2 = re.search(r"const CAPTURED = '([^']*)'", html)

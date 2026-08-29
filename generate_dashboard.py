@@ -13,7 +13,7 @@ BASE = Path('/home/tono/work/kiro/202608_Explore_LasVegas')
 TEMPLATE_PATH = BASE / 'dashboard_template.html'
 OUTPUT_PATH = BASE / 'index.html'
 DATA_PATH = BASE / 'sessions_full.json'
-HAR_PATH = BASE / 'event.vmware.com_20260828.har'
+HAR_PATH = BASE / 'event.vmware.com_20260830.har'
 
 sessions = json.loads(DATA_PATH.read_text(encoding='utf-8'))
 html = TEMPLATE_PATH.read_text(encoding='utf-8')

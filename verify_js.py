@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""dashboard.html 内のJSを抽出して Node で構文チェック + 集計ロジックを実行検証する。"""
+"""index.html 内のJSを抽出して Node で構文チェック + 集計ロジックを実行検証する。"""
 import json
 import re
 import subprocess
@@ -8,7 +8,13 @@ import tempfile
 from pathlib import Path
 
 BASE = Path('/home/tono/work/kiro/202608_Explore_LasVegas')
-html = (BASE / 'dashboard.html').read_text(encoding='utf-8')
+html = (BASE / 'index.html').read_text(encoding='utf-8')
+
+# JSON実データから期待値を算出（HAR更新に追従させるため固定値を使わない）
+_S = json.loads((BASE / 'sessions_full.json').read_text(encoding='utf-8'))
+_S_cap = sum(s['capacity'] or 0 for s in _S)
+_S_rem = sum(s['seats_remaining'] or 0 for s in _S)
+_S_wl = sum(1 for s in _S if s['availability_status'] == 'Waitlist')
 
 script = re.search(r'<script>(.*)</script>', html, re.S)
 if not script:
@@ -106,13 +112,16 @@ def check(label, cond, extra=''):
         ok = False
 
 
-check('全セッション数 = 140', res['total'] == 140, f"→ {res['total']}")
-check('満席 = 28', res['waitlist'] == 28, f"→ {res['waitlist']}")
-check('スポンサー = 16', res['sponsored'] == 16, f"→ {res['sponsored']}")
-check("People's Choice = 4", res['peoplesChoice'] == 4, f"→ {res['peoplesChoice']}")
+_exp_sp = sum(1 for s in _S if s['is_sponsored'])
+_exp_pc = sum(1 for s in _S if s['is_peoples_choice'])
+check(f'全セッション数 = JSONと一致 ({len(_S)})', res['total'] == len(_S), f"→ {res['total']}")
+check(f'満席 = JSONと一致 ({_S_wl})', res['waitlist'] == _S_wl, f"→ {res['waitlist']}")
+check(f'スポンサー = JSONと一致 ({_exp_sp})', res['sponsored'] == _exp_sp, f"→ {res['sponsored']}")
+check(f"People's Choice = JSONと一致 ({_exp_pc})", res['peoplesChoice'] == _exp_pc, f"→ {res['peoplesChoice']}")
 check('製品数 > 0', res['productCount'] > 0, f"→ {res['productCount']}")
-check('総座席 = 27,626', res['totalCap'] == 27626, f"→ {res['totalCap']:,}")
-check('充填率 = 60.0%', abs(res['fillPct'] - 60.0) < 0.05, f"→ {res['fillPct']}%")
+check(f'総座席 = JSONと一致 ({_S_cap:,})', res['totalCap'] == _S_cap, f"→ {res['totalCap']:,}")
+_exp_fill = round((_S_cap - _S_rem) / _S_cap * 100, 1)
+check(f'充填率 = JSONと一致 ({_exp_fill}%)', abs(res['fillPct'] - _exp_fill) < 0.1, f"→ {res['fillPct']}%")
 check('Track合計 = 総数', res['crossTotalsMatch'])
 check('Level合計 = 総数', res['levelTotalsMatch'])
 check('KPIカードが5枚', res['kpiCards'] == 5, f"→ {res['kpiCards']}枚")
